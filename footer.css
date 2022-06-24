@@ -1,0 +1,30 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1170px;
+    background-color: red;
+    margin: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+ul {
+    list-style: none;
+} */
+.footer {
+    background-color: #24262b;
+    /* padding: 70px 0; */
+    padding: 2px 0;
+}
+.footer p {
+    color: white;
+    text-align: center;
+}
+/* .footer-col {
+    width: 25%;
+    padding: 0 15px;
+} */

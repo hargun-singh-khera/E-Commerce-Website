@@ -1,0 +1,164 @@
+.justify-content-center {
+    margin-right: 40%;
+}
+
+.navbar-brand {
+    margin-right: 7rem;
+    margin-left: 1rem;
+}
+.navbar {
+    min-height: 50px;
+}
+.nav-cf {
+    margin-top: -18px;
+    margin-bottom: -10px;
+}
+.nav-cf-1 {
+    padding-bottom: -300px;
+}
+.nav-cf-1 li {
+    padding-top: 2px;
+    font-weight: 500;
+}
+.nav-item{
+    padding-right:25px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+/* Styling of Alert content */
+.price-alert {
+    margin-bottom: -10px;
+    margin-top: -10px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: medium;
+}
+.price-alert .btn-close {
+    font-size: 10px;
+}
+.strong-1 {
+    color: red;
+}
+.strong-2 {
+    color: brown;
+}
+
+.bg-success {
+    margin-left: 20px;
+}
+
+.d-flex {
+    margin-top: 9px;
+    margin-right: 35px;
+}
+
+.d-flex .btn .btn-outline-success{
+    margin-right: 5px;
+    margin-left: 5px;
+    /* padding: -2rem; */
+}
+.d-flex .me-2 {
+    display: inline-block;
+    margin-left: 10px;
+    height: 35px;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 7px 180px 10px 15px;
+    border-radius: 4px 4px 4px 4px;
+    color: #696e79;
+}
+
+.images-container {
+    margin-left: 18px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.justify-content-center {
+    margin-right: 20%;
+}
+.visually-hidden {
+    color: black;
+}
+
+
+
+.carousel-inner h2 {
+    letter-spacing: 1.8rem;
+    color: black;
+    /* color: white; */
+}
+
+.sbe-shop-now {
+    border-radius: 2.75rem;
+    padding: 13px 64px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    color: black;
+    background-color: rgba(165, 42, 42, 0.684);
+    border: none;
+}
+.carousel-shop-now {
+    border-radius: 2.75rem;
+    padding: 13px 44px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    color: black;
+    background-color: rgb(251, 235, 11);
+    border: none;
+}
+.carousel-shop-now:hover {
+    background-color: rgb(47, 251, 11)
+}
+.bi {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card {
+    display: inline-block;
+    border: none;
+}
+.card-img-top {
+    cursor: default;
+}
+.card-img-top:hover {
+    transform:scale(1.0010);
+}
+.card-title {
+    text-align: center;
+}
+.card-title a {
+    color: orange;
+    text-decoration: none;
+}
+.sbe-text {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+/* Aligning the contents of navbar profile,wishlist, and cart icons with name */
+.container-icon-nav {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 11px;
+    font-weight: bold;
+}
+.sub-container-icon-nav {
+    float: left;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.breadcrumb {
+    padding-top: 10px;
+    margin-bottom: 1px;
+}
+
+#cart-logo {
+    text-decoration: none;
+    color: black
+}

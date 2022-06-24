@@ -1,0 +1,20 @@
+.filters {
+    display: flex;
+}
+.filters-container {
+    width: 110%;
+    /* background-color: red; */
+    border: 1px solid;
+    height: 10%; 
+}
+.card-group .card-clothes-2 {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 45%;
+    /* border: none; */
+}
+.card-group.card-2 {
+    /* width: 70%; */
+}
