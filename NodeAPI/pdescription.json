@@ -1,0 +1,155 @@
+[
+    {
+        "product_id": 1,
+        "title": "More & More Unisex-Adult Cotton Hooded Neck Star War Printed Hoodie",
+        "age_group": "adult",
+        "gender": "unisex",
+        "availablility": "In Stock",
+        "rating": 4,
+        "category": "TopWear",
+        "sub-category": "Hoodie",
+        "price": 657,
+        "colour" : [
+            {
+                "colour_id": 1,
+                "colour": "Blue",
+                "image": "https://i.ibb.co/kG9BmfD/41-X50-USMBSL.jpg"
+            },
+            {
+                "colour_id": 2,
+                "colour": "Yellow",
+                "image": "https://i.ibb.co/wCbgQKY/41v-Wik-VP5-ML.jpg"
+            }
+        ],
+        "size": [
+            {
+                "size_id": 1,
+                "size": "XS"
+            },
+            {
+                "size_id": 2,
+                "size": "S"
+            },
+            {
+                "size_id": 3,
+                "size": "M"
+            },
+            {
+                "size_id": 4,
+                "size": "L"
+            },
+            {
+                "size_id": 5,
+                "size": "XL"
+            },
+            {
+                "size_id": 6,
+                "size": "XXL"
+            }
+        ],
+        "description": [
+            "Care Instructions: Wash in cold water",
+            "Fit Type: Regular",
+            "Fit Type: Regular Fit; Main material: 100% Cotton , 320GSM (Bio-Washed & Pre-XShrunk for Minimum shrinkage)",
+            "Actual Products color may vary with product due to monitor settings"
+        ]        
+    },
+    {
+        "product_id": 2,
+        "title": "More & More Unisex-Adult Cotton Hooded Neck Star War Printed Hoodie",
+        "age_group": "adult",
+        "gender": "unisex",
+        "availablility": "In Stock",
+        "rating": 4,
+        "category": "TopWear",
+        "sub-category": "Hoodie",
+        "price": 657,
+        "colour" : [
+            {
+                "colour_id": 1,
+                "colour": "Blue",
+                "image": "https://i.ibb.co/kG9BmfD/41-X50-USMBSL.jpg"
+            },
+            {
+                "colour_id": 2,
+                "colour": "Yellow",
+                "image": "https://i.ibb.co/wCbgQKY/41v-Wik-VP5-ML.jpg"
+            }
+        ],
+        "size": [
+            {
+                "size_id": 1,
+                "size": "XS"
+            },
+            {
+                "size_id": 2,
+                "size": "S"
+            },
+            {
+                "size_id": 3,
+                "size": "M"
+            },
+            {
+                "size_id": 4,
+                "size": "L"
+            },
+            {
+                "size_id": 5,
+                "size": "XL"
+            },
+            {
+                "size_id": 6,
+                "size": "XXL"
+            }
+        ]        
+    },
+    {
+        "product_id": 3,
+        "title": "More & More Unisex-Adult Cotton Hooded Neck Star War Printed Hoodie",
+        "age_group": "adult",
+        "gender": "unisex",
+        "availablility": "In Stock",
+        "rating": 4,
+        "category": "TopWear",
+        "sub-category": "Hoodie",
+        "price": 657,
+        "colour" : [
+            {
+                "colour_id": 1,
+                "colour": "Blue",
+                "image": "https://i.ibb.co/kG9BmfD/41-X50-USMBSL.jpg"
+            },
+            {
+                "colour_id": 2,
+                "colour": "Yellow",
+                "image": "https://i.ibb.co/wCbgQKY/41v-Wik-VP5-ML.jpg"
+            }
+        ],
+        "size": [
+            {
+                "size_id": 1,
+                "size": "XS"
+            },
+            {
+                "size_id": 2,
+                "size": "S"
+            },
+            {
+                "size_id": 3,
+                "size": "M"
+            },
+            {
+                "size_id": 4,
+                "size": "L"
+            },
+            {
+                "size_id": 5,
+                "size": "XL"
+            },
+            {
+                "size_id": 6,
+                "size": "XXL"
+            }
+        ]        
+    }
+]

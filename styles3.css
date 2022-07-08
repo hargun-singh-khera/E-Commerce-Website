@@ -1,0 +1,72 @@
+/* .btn-primary,.btn-secondary,.btn-success,.btn-danger, .btn-warning, .btn-info,.btn-dark {
+    border-radius: 2.75rem;
+    padding: 13px 64px;
+    margin-top: 10px;
+} */
+.d-md-block {
+    letter-spacing: 2.5rem;
+    /* text-align: center; */
+    display: block;
+    /* margin-bottom: 18rem; */
+    color: black;
+}
+.card {
+  border: none;
+}
+.card-img-top:hover {
+    transform:scale(1.0010);
+}
+.card-title {
+    text-align: center;
+    color: orange;
+}
+.sbe-text {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.sbe-shop-now {
+    border-radius: 2.75rem;
+    padding: 13px 64px;
+    margin-top: 50px;
+    margin-left: 42rem;
+    color: black;
+    background-color: white;
+    border: none;
+  }
+  .card {
+    display: inline-block;
+  }
+  .card-group .card-1{
+    width: 90%;
+  }
+  .card-group.card-2 {
+    width: 50%;
+    margin-top: 1rem;
+    margin-left: 10rem;
+  }
+  .card-group .card-clothes {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .card-group .card-clothes-2 {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .filters.container-fluid.filters-container {
+    background-color: red;
+    width: 30%;
+    margin-left: -70rem;
+  }
+  /* If the screen size is 1200px wide or more, set the font-size to 80px */
+  /* @media (min-width: 1200px) {
+      .carousel-inner h2 {
+        font-size: 2.8remx;
+      }
+    } */
+    /* If the screen size is smaller than 1200px, set the font-size to 80px */
+    /* @media (max-width: 1199.98px) {
+      .carousel-inner h2 {
+        font-size: 10px;
+      }
+  } */
