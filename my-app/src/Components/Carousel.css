@@ -1,0 +1,162 @@
+.carousel-inner h2 {
+    letter-spacing: 2.2rem;
+    font-size: 40px;
+    font-weight: 700;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* color: black; */
+}
+
+.carousel-shop-now {
+    border-radius: 2.75rem;
+    padding: 15px 70px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    color: black;
+    background-color: white;
+    /* background-color:rgb(251, 235, 11); */
+    border: none;
+}
+.carousel-shop-now:hover {
+    background-color: rgb(47, 251, 11)
+}
+.carousel-caption {
+    margin-bottom: 13rem;
+}
+.bi {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* Adding media queries */
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+    .carousel-inner h2 {
+        letter-spacing: 1.8rem;
+        line-height: 2.8rem;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .carousel-caption {
+        margin-bottom: 8rem;
+    }
+    .carousel-shop-now{
+        padding: 14px 70px;
+    }
+}
+/* @media only screen and (max-width: 976px){
+	Big smartphones [426px -> 641px]
+    .carousel-inner h2 {
+        letter-spacing: 1.5rem;
+        line-height: 2.0rem;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .carousel-caption {
+        margin-bottom: 6rem;
+    }
+    .carousel-shop-now{
+        padding: 12px 60px;
+        font-size: 15px;
+    }
+} */
+/* @media only screen and (max-width: 874px){
+	Big smartphones [426px -> 641px]
+    .carousel-inner h2 {
+        letter-spacing: 1.0rem;
+        line-height: 2.0rem;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .carousel-caption {
+        margin-bottom: 2rem;
+    }
+    .carousel-shop-now{
+        padding: 12px 60px;
+        font-size: 15px;
+    }
+} */
+/* @media only screen and (max-width: 625px){
+	Big smartphones [426px -> 641px]
+    .carousel-inner h2 {
+        letter-spacing: 1.0rem;
+        font-weight: 700;
+        font-size: 15px;
+    }
+    .carousel-caption {
+        margin-bottom: -1rem;
+    }
+    .carousel-shop-now{
+        padding: 12px 60px;
+        font-size: 8px;
+    }
+} */
+@media only screen and (max-width: 641px){
+	/*Big smartphones [426px -> 641px]*/
+    .carousel-inner h2 {
+        letter-spacing: 1.0rem;
+        font-weight: 700;
+        font-size: 15px;
+    }
+    .carousel-caption {
+        margin-bottom: -1rem;
+    }
+    .carousel-shop-now{
+        padding: 12px 60px;
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 542px){
+	/*Minimise mode on laptop [450px -> 425px]*/
+    .carousel-inner h2 {
+        letter-spacing: 0.7rem;
+        font-weight: 700;
+        line-height: 1.2rem;
+        font-size: 12px;
+    }
+    .carousel-caption {
+        margin-bottom: -0.01rem;
+    }
+    .carousel-shop-now{
+        padding: 8px 35px;
+        font-size: 12px;
+        margin-top: -5px;
+        margin-bottom: 45px;
+    }
+}
+@media only screen and (max-width: 450px){
+	/*Small smartphones [325px -> 425px]*/
+    .carousel-inner h2 {
+        letter-spacing: 0.5rem;
+        line-height: 1.2rem;
+        font-size: 12px;
+    }
+    .carousel-caption {
+        margin-bottom: -2.9rem;
+    }
+    .carousel-shop-now{
+        padding: 7px 35px;
+        margin-top: 15px;
+        margin-bottom: 65px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 415px){
+	/*Small smartphones [325px -> 425px]*/
+    .carousel-inner h2 {
+        letter-spacing: 0.5rem;
+        line-height: 1.2rem;
+        font-size: 13px;
+    }
+    .carousel-caption {
+        margin-bottom: -3.1rem;
+    }
+    .carousel-shop-now{
+        padding: 5px 25px;
+        margin-top: -10px;
+        margin-bottom: 79px;
+        font-size: 14px;
+    }
+}

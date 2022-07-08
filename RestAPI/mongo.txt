@@ -1,1 +1,0 @@
-db.location.insertMany([{"location_id": 1,"location_name": "New Delhi","state_id": 1,"state": "Delhi","country": "India"}, {"location_id": 2,"location_name": "Mumbai","state_id": 2,"state": "Maharashtra","country": "India"}]);
