@@ -74,7 +74,7 @@ class Header extends Component {
                                     <a className="nav-link active" aria-current="page" href="#About">ABOUT</a>
                                 </li>
                                 <li className="nav-item" data-bs-toggle="modal" data-bs-target="#contactModal">
-                                    <a className="nav-link active contact-modal" aria-current="page">CONTACT</a>
+                                    <a className="nav-link active contact-modal" aria-current="page" href="/#">CONTACT</a>
                                 </li>
                             </ul>
                             <form className="d-flex d-flex-form">
@@ -83,7 +83,7 @@ class Header extends Component {
                                 <button className="btn btn-outline-success" type="submit">Search</button>
                             </form>
 
-                            <div className="flex-shrink-0 dropdown">
+                            {/* <div className="flex-shrink-0 dropdown">
                                 <a href="/#" className="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
                                     <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" className="rounded-circle"/>
                                 </a>
@@ -94,9 +94,8 @@ class Header extends Component {
                                     <li><hr className="dropdown-divider"/></li>
                                     <li><a className="dropdown-item" href="/#">Sign out</a></li>
                                 </ul>
-                            </div>
+                            </div> */}
 
-                            {/* <div className="container-icon-nav">
                                 <div className="sub-container-icon-nav" data-bs-toggle="modal" data-bs-target="#loginModalToggle">
                                     <i className="bi bi-person" style={{ fontSize: "1.3rem" }}></i>
                                     <p>Profile</p>
@@ -106,12 +105,11 @@ class Header extends Component {
                                     <p>Wishlist</p>
                                 </div>
                                 <div className="sub-container-icon-nav">
-                                    <a href="Cart.html" id="cart-logo">
+                                    <Link to="/cart" id="cart-logo">
                                         <i className="bi bi-cart2" style={{ fontSize: "1.3rem" }}></i>
                                         <p>Cart</p>
-                                    </a>
+                                    </Link>
                                 </div>
-                            </div> */}
                             {/* <div className="dropdown text-end">
                                 <a href="/#" className="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
                                     <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" className="rounded-circle" />

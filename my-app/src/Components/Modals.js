@@ -6,7 +6,7 @@ export default function Modals() {
             {/* Adding Modals */}
             {/* Login with Sign UpModal  */}
             <div className="modal fade" id="loginModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
-                tabindex="-1">
+                tabIndex="-1">
                 <div className="modal-dialog ">
                     <div className="modal-content">
                         <div className="modal-header">
@@ -17,17 +17,17 @@ export default function Modals() {
                         <div className="modal-body">
                             <form>
                                 <div className="mb-3">
-                                    <label for="exampleInputEmail1" className="form-label">Email address</label>
-                                    <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+                                    <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
+                                    <input type="email" className="form-control" id="exampleInputEmail" aria-describedby="emailHelp"/>
                                         <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
                                 </div>
                                 <div className="mb-3">
-                                    <label for="exampleInputPassword1" className="form-label">Password</label>
+                                    <label htmlFor="exampleInputPassword1" className="form-label">Password</label>
                                     <input type="password" className="form-control" id="exampleInputPassword1"/>
                                 </div>
                                 <div className="mb-3 form-check">
                                     <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
-                                        <label className="form-check-label" for="exampleCheck1">Remember me</label>
+                                        <label className="form-check-label" htmlFor="exampleCheck1">Remember me</label>
                                 </div>
                                 <button type="Login" className="btn btn-primary">Login</button>
                             </form>
@@ -42,7 +42,7 @@ export default function Modals() {
                 </div>
             </div>
             <div className="modal fade" id="signupModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
-                tabindex="-1">
+                tabIndex="-1">
                 <div className="modal-dialog modal-lg ">
                     <div className="modal-content">
                         <div className="modal-header">
@@ -53,17 +53,17 @@ export default function Modals() {
                         <div className="modal-body">
                             <form>
                                 <div className="mb-3">
-                                    <label for="exampleInputEmail1" className="form-label">Your name</label>
+                                    <label htmlFor="exampleInputEmail1" className="form-label">Your name</label>
                                     <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                                         placeholder="First and Last Name"/>
                                 </div>
                                 <div className="mb-3">
-                                    <label for="exampleInputEmail1" className="form-label">Email address</label>
-                                    <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+                                    <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
+                                    <input type="email" className="form-control" id="exampleInputEmail2" aria-describedby="emailHelp"/>
                                         <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
                                 </div>
                                 <div className="mb-3">
-                                    <label for="exampleInputPassword1" className="form-label">Password</label>
+                                    <label htmlFor="exampleInputPassword1" className="form-label">Password</label>
                                     <input type="password" id="inputPassword5" className="form-control" aria-describedby="passwordHelpBlock"/>
                                     <div id="passwordHelpBlock" className="form-text">
                                         Your password must be 6-10 characters long, containing letters and numbers, and must not contain spaces,
@@ -71,7 +71,7 @@ export default function Modals() {
                                     </div>
                                 </div>
                                     <div className="mb-3">
-                                        <label for="cexampleInputPassword1" className="form-label">Confirm Password</label>
+                                        <label htmlFor="cexampleInputPassword1" className="form-label">Confirm Password</label>
                                         <input type="password" className="form-control" id="cexampleInputPassword1"/>
                                     </div>
 
@@ -92,7 +92,7 @@ export default function Modals() {
 
             {/* Modal */}
             {/* Contact Us Modal */}
-            <div className="modal fade" id="contactModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div className="modal fade" id="contactModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div className="modal-dialog modal-xl">
                     <div className="modal-content modal-xl modal-dialoge-centered">
                         <div className="modal-header">
@@ -103,27 +103,27 @@ export default function Modals() {
                         <div className="modal-body">
                             <form>
                                 <div className="mb-3">
-                                    <label for="exampleInputEmail1" className="form-label">Your name</label>
-                                    <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                    <label htmlFor="exampleInputEmail1" className="form-label">Your name</label>
+                                    <input type="text" className="form-control" id="exampleInputEmai3" aria-describedby="emailHelp"
                                         placeholder="First and Last Name"/>
                                 </div>
                                 <div className="mb-3">
-                                    <label for="exampleFormControlInput1" className="form-label">Email address</label>
+                                    <label htmlFor="exampleFormControlInput1" className="form-label">Email address</label>
                                     <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
                                 </div>
-                                <label for="exampleFormControlInput1" className="form-label">Please select your Query</label>
-                                <select className="form-select" aria-label="Default select example">
+                                <label htmlFor="exampleFormControlInput1" className="form-label">Please select your Query</label>
+                                <select value="" className="form-select" aria-label="Default select example">
                                     <option selected>Open this select menu</option>
                                     <option value="1">Product quality was not good.</option>
-                                    <option value="2">Product quality was not good.</option>
-                                    <option value="3">Product quality was not good.</option>
+                                    <option value="2">Wrong product sended.</option>
+                                    <option value="3">Delivery not done on time.</option>
                                 </select>
                                 <div className="mb-3">
 
                                 </div>
 
                                 <div className="mb-3">
-                                    <label for="exampleFormControlTextarea1" className="form-label">Elaborate Your Concern</label>
+                                    <label htmlFor="exampleFormControlTextarea1" className="form-label">Elaborate Your Concern</label>
                                     <textarea className="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
                                 </div>
                                 <div className="modal-footer">

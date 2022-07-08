@@ -1,4 +1,4 @@
-.card.mb-3 {
+.container-fluid.cart-container .card.mb-3 {
     max-width: 740px;
 }
 .cart-container {
@@ -8,18 +8,19 @@
 .shopping-cart-heading p {
     text-align: right;
 }
-.bi {
+
+/* .bi {
     padding-left: 100px;
-}
+} */
+
 .shopping-cart-items {
     background-color: yellow;
-    /* width: 100%; */
 }
-#cart-deselect-item {
-    /* margin-top: -1rem; */
-    text-decoration: none;
 
+#cart-deselect-item {
+    text-decoration: none;
 }
+
 #availability {
     margin-top: -6px;
     color: green;

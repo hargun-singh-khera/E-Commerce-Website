@@ -1,6 +1,210 @@
 [
     {
         "product_id": 1,
+        "title": "Dennis Lingo Men's Checkered Slim fit Casual Shirt",
+        "age_group": "adult",
+        "department": "Men",
+        "availablility": "In Stock",
+        "rating": 3,
+        "unrating": 2,
+        "category": "TopWear",
+        "sub-category": "Dresses",
+        "price": 699,
+        "product_image": "https://i.ibb.co/Kj7m7HS/71r7g8c-Gq4-L-SY741-SX-UX-SY-UY.jpg",
+        "colour" : [
+            {
+                "colour_id": 1,
+                "colour": "Blue",
+                "image": "https://i.ibb.co/Kj7m7HS/71r7g8c-Gq4-L-SY741-SX-UX-SY-UY.jpg"
+            },
+            {
+                "colour_id": 3,
+                "colour": "Red",
+                "image": "https://i.ibb.co/gS0kVgQ/716-B-ns-Q3-LL-SY741-SX-UX-SY-UY.jpg"
+            }
+        ],
+        "size": [
+            {
+                "size_id": 2,
+                "size": "S"
+            },
+            {
+                "size_id": 3,
+                "size": "M"
+            },
+            {
+                "size_id": 4,
+                "size": "L"
+            },
+            {
+                "size_id": 5,
+                "size": "XL"
+            },
+            {
+                "size_id": 5,
+                "size": "XXL"
+            }
+        ],
+        "description": [
+            "Care Instructions: Machine Wash",
+            "Fit Type: slim fit",
+            "100% premium Cotton, pre washed for an extremely soft finish and rich look",
+            "Stylish full sleeve checkered casual shirt",
+            "Modern slim fit ( we have updated our size chart, please refer the size chart for new measurements before ordering)",
+            "Best for casual & smart casual wear"
+        ]        
+    },
+    {
+        "product_id": 2,
+        "title": "WINTAGE Men's Polyester Solid Smart Casual Office Blazer",
+        "age_group": "adult",
+        "department": "Men",
+        "availablility": "In Stock",
+        "rating": 4,
+        "category": "TopWear",
+        "sub-category": "Blazers",
+        "price": 2170,
+        "product_image": "https://i.ibb.co/0CMV6Lp/51irp-WZrct-L-SY741-SX-UX-SY-UY.jpg",
+        "colour" : [
+            {
+                "colour_id": 1,
+                "colour": "Blue",
+                "image": "https://i.ibb.co/sVVPMcP/61-XPea-O7-JL-SY741-SX-UX-SY-UY.jpg"
+            },
+            {
+                "colour_id": 4,
+                "colour": "Black",
+                "image": "https://i.ibb.co/0CMV6Lp/51irp-WZrct-L-SY741-SX-UX-SY-UY.jpg"
+            },
+            {
+                "colour_id": 5,
+                "colour": "Green",
+                "image": "https://i.ibb.co/92ZVJy8/61-Z-Ni3-DC4-L-SY741-SX-UX-SY-UY.jpg"
+            }
+        ],
+        "size": [
+            {
+                "size_id": 2,
+                "size": "S"
+            },
+            {
+                "size_id": 3,
+                "size": "M"
+            },
+            {
+                "size_id": 4,
+                "size": "L"
+            },
+            {
+                "size_id": 5,
+                "size": "XL"
+            }
+        ],
+        "description": [
+            "Care Instructions: Dry Clean Only",
+            "Fit Type: Regular",
+            "Polyester Cotton Fabric | Satin Lining | Wash Care - Dry Clean Only",
+            "Recommended Wear- Office , Party, Smart Casual, Formal, Evening and other occasions",
+            "Tailored Fit | Please buy the same size as you would while buying a regular sized shirt",
+            "From Factory to Customer: No Middleman | We manufacture the clothes in our Noida Factory and deliver to the customers all over the world eliminating all middlemen"
+        ]        
+    },
+    {
+        "product_id": 3,
+        "title": "Forest Club Solid's Mens Jacket",
+        "age_group": "adult",
+        "department": "Men",
+        "availablility": "In Stock",
+        "rating": 4,
+        "category": "TopWear",
+        "sub-category": "Jackets",
+        "price": 1600,
+        "product_image": "https://i.ibb.co/sszVj7W/81-oew-J5-Es-L-SY741-SX-UX-SY-UY.jpg",
+        "colour" : [
+            {
+                "colour_id": 1,
+                "colour": "Blue",
+                "image": "https://i.ibb.co/sszVj7W/81-oew-J5-Es-L-SY741-SX-UX-SY-UY.jpg"
+            },
+            {
+                "colour_id": 3,
+                "colour": "Red",
+                "image": "https://i.ibb.co/TWTxqm9/71l40xpx-Vz-S-SY741-SX-UX-SY-UY.jpg"
+            },
+            {
+                "colour_id": 4,
+                "colour": "Black",
+                "image": "https://i.ibb.co/yBWzGxh/71-Fp-YA79b-CL-SY741-SX-UX-SY-UY.jpg"
+            }
+        ],
+        "size": [
+            {
+                "size_id": 3,
+                "size": "M"
+            },
+            {
+                "size_id": 4,
+                "size": "L"
+            },
+            {
+                "size_id": 5,
+                "size": "XL"
+            }
+        ],
+        "description": [
+            "Fit Type: Slim Fit",
+            "High Quality Nylon Polyester Blend Fabric with Water Resistance, Hood is rolled into the Collar of the Jacket.; 2 Front Pockets with Zippers and 2 Pockets on Reversible Side for Safe Storage",
+            "Made In India-This Jacket can be used for Hiking, Riding, Gym, Daily Office wear. However this is NOT A WATERPROOF JACKET but is able to resist the penetration of water to some degree but not entirely.",
+            "Wear this Impeccable piece of stylish jacket to stand out of the crowd, this jacket is not just jacket but a jacket with a utility that is designed to Protect your daily wear in a trendy way"
+        ]        
+    },
+    {
+        "product_id": 4,
+        "title": "Neostreak Men's Slim Fit Stretchable Jeans",
+        "age_group": "adult",
+        "department": "men",
+        "availablility": "In Stock",
+        "rating": 4,
+        "category": "BottomWear",
+        "sub-category": "Jeans",
+        "price": 625,
+        "product_image": "https://i.ibb.co/MsfbNr4/81n-Xq-Atj-L8-L-UX569.jpg", 
+        "colour" : [
+            {
+                "colour_id": 1,
+                "colour": "Blue",
+                "image": "https://i.ibb.co/MsfbNr4/81n-Xq-Atj-L8-L-UX569.jpg"
+            },
+            {
+                "colour_id": 4,
+                "colour": "Black",
+                "image": "https://i.ibb.co/DR9pjsC/71r-VIZi-Npd-L-SX569-SX-UX-SY-UY.jpg"
+            }
+        ],
+        "size": [
+            {
+                "size_id": 2,
+                "size": "S"
+            },
+            {
+                "size_id": 3,
+                "size": "M"
+            },
+            {
+                "size_id": 4,
+                "size": "L"
+            }
+        ],
+        "description": [
+            "Care Instructions: Machine Wash",
+            "Fit Type: Slim",
+            "Material: Cotton",
+            "Machine wash",
+            "Made in India"
+        ]         
+    },
+    {
+        "product_id": 5,
         "title": "Jockey Men's Regular Fit V Neck Half Sleeved T-Shirt",
         "age_group": "adult",
         "department": "men",
@@ -64,62 +268,7 @@
         ]        
     },
     {
-        "product_id": 2,
-        "title": "Dennis Lingo Men's Checkered Slim fit Casual Shirt",
-        "age_group": "adult",
-        "department": "Men",
-        "availablility": "In Stock",
-        "rating": 3,
-        "unrating": 2,
-        "category": "TopWear",
-        "sub-category": "Dresses",
-        "price": 699,
-        "product_image": "https://i.ibb.co/Kj7m7HS/71r7g8c-Gq4-L-SY741-SX-UX-SY-UY.jpg",
-        "colour" : [
-            {
-                "colour_id": 1,
-                "colour": "Blue",
-                "image": "https://i.ibb.co/Kj7m7HS/71r7g8c-Gq4-L-SY741-SX-UX-SY-UY.jpg"
-            },
-            {
-                "colour_id": 3,
-                "colour": "Red",
-                "image": "https://i.ibb.co/gS0kVgQ/716-B-ns-Q3-LL-SY741-SX-UX-SY-UY.jpg"
-            }
-        ],
-        "size": [
-            {
-                "size_id": 2,
-                "size": "S"
-            },
-            {
-                "size_id": 3,
-                "size": "M"
-            },
-            {
-                "size_id": 4,
-                "size": "L"
-            },
-            {
-                "size_id": 5,
-                "size": "XL"
-            },
-            {
-                "size_id": 5,
-                "size": "XXL"
-            }
-        ],
-        "description": [
-            "Care Instructions: Machine Wash",
-            "Fit Type: slim fit",
-            "100% premium Cotton, pre washed for an extremely soft finish and rich look",
-            "Stylish full sleeve checkered casual shirt",
-            "Modern slim fit ( we have updated our size chart, please refer the size chart for new measurements before ordering)",
-            "Best for casual & smart casual wear"
-        ]        
-    },
-    {
-        "product_id": 3,
+        "product_id": 6,
         "title": "MANQ Men's Slim Fit Formal Shirt",
         "age_group": "adult",
         "department": "Men",
@@ -183,111 +332,7 @@
         ]        
     },
     {
-        "product_id": 4,
-        "title": "Forest Club Solid's Mens Jacket",
-        "age_group": "adult",
-        "department": "Men",
-        "availablility": "In Stock",
-        "rating": 4,
-        "category": "TopWear",
-        "sub-category": "Jackets",
-        "price": 1600,
-        "product_image": "https://i.ibb.co/sszVj7W/81-oew-J5-Es-L-SY741-SX-UX-SY-UY.jpg",
-        "colour" : [
-            {
-                "colour_id": 1,
-                "colour": "Blue",
-                "image": "https://i.ibb.co/sszVj7W/81-oew-J5-Es-L-SY741-SX-UX-SY-UY.jpg"
-            },
-            {
-                "colour_id": 3,
-                "colour": "Red",
-                "image": "https://i.ibb.co/TWTxqm9/71l40xpx-Vz-S-SY741-SX-UX-SY-UY.jpg"
-            },
-            {
-                "colour_id": 4,
-                "colour": "Black",
-                "image": "https://i.ibb.co/yBWzGxh/71-Fp-YA79b-CL-SY741-SX-UX-SY-UY.jpg"
-            }
-        ],
-        "size": [
-            {
-                "size_id": 3,
-                "size": "M"
-            },
-            {
-                "size_id": 4,
-                "size": "L"
-            },
-            {
-                "size_id": 5,
-                "size": "XL"
-            }
-        ],
-        "description": [
-            "Fit Type: Slim Fit",
-            "High Quality Nylon Polyester Blend Fabric with Water Resistance, Hood is rolled into the Collar of the Jacket.; 2 Front Pockets with Zippers and 2 Pockets on Reversible Side for Safe Storage",
-            "Made In India-This Jacket can be used for Hiking, Riding, Gym, Daily Office wear. However this is NOT A WATERPROOF JACKET but is able to resist the penetration of water to some degree but not entirely.",
-            "Wear this Impeccable piece of stylish jacket to stand out of the crowd, this jacket is not just jacket but a jacket with a utility that is designed to Protect your daily wear in a trendy way"
-        ]        
-    },
-    {
-        "product_id": 5,
-        "title": "WINTAGE Men's Polyester Solid Smart Casual Office Blazer",
-        "age_group": "adult",
-        "department": "Men",
-        "availablility": "In Stock",
-        "rating": 4,
-        "category": "TopWear",
-        "sub-category": "Blazers",
-        "price": 2170,
-        "product_image": "https://i.ibb.co/0CMV6Lp/51irp-WZrct-L-SY741-SX-UX-SY-UY.jpg",
-        "colour" : [
-            {
-                "colour_id": 1,
-                "colour": "Blue",
-                "image": "https://i.ibb.co/sVVPMcP/61-XPea-O7-JL-SY741-SX-UX-SY-UY.jpg"
-            },
-            {
-                "colour_id": 4,
-                "colour": "Black",
-                "image": "https://i.ibb.co/0CMV6Lp/51irp-WZrct-L-SY741-SX-UX-SY-UY.jpg"
-            },
-            {
-                "colour_id": 5,
-                "colour": "Green",
-                "image": "https://i.ibb.co/92ZVJy8/61-Z-Ni3-DC4-L-SY741-SX-UX-SY-UY.jpg"
-            }
-        ],
-        "size": [
-            {
-                "size_id": 2,
-                "size": "S"
-            },
-            {
-                "size_id": 3,
-                "size": "M"
-            },
-            {
-                "size_id": 4,
-                "size": "L"
-            },
-            {
-                "size_id": 5,
-                "size": "XL"
-            }
-        ],
-        "description": [
-            "Care Instructions: Dry Clean Only",
-            "Fit Type: Regular",
-            "Polyester Cotton Fabric | Satin Lining | Wash Care - Dry Clean Only",
-            "Recommended Wear- Office , Party, Smart Casual, Formal, Evening and other occasions",
-            "Tailored Fit | Please buy the same size as you would while buying a regular sized shirt",
-            "From Factory to Customer: No Middleman | We manufacture the clothes in our Noida Factory and deliver to the customers all over the world eliminating all middlemen"
-        ]        
-    },
-    {
-        "product_id": 6,
+        "product_id": 7,
         "title": "Men's Lycra-Cotton Slim Fit Designer Coat",
         "age_group": "adult",
         "department": "Men",
@@ -345,290 +390,6 @@
             "Comfortable To Wear And Easy To Maintain",
             "Modern Slim Fit ( We Have Updated Our Size Chart, Please Refer The Size Chart For New Measurements Before Ordering)",
             "Sleeve Type: Long Sleeve; Collar Style: Classic Collar"
-        ]        
-    },
-    {
-        "product_id": 7,
-        "title": "Neostreak Men's Slim Fit Stretchable Jeans",
-        "age_group": "adult",
-        "department": "men",
-        "availablility": "In Stock",
-        "rating": 4,
-        "category": "BottomWear",
-        "sub-category": "Jeans",
-        "price": 625,
-        "product_image": "https://i.ibb.co/MsfbNr4/81n-Xq-Atj-L8-L-UX569.jpg", 
-        "colour" : [
-            {
-                "colour_id": 1,
-                "colour": "Blue",
-                "image": "https://i.ibb.co/MsfbNr4/81n-Xq-Atj-L8-L-UX569.jpg"
-            },
-            {
-                "colour_id": 4,
-                "colour": "Black",
-                "image": "https://i.ibb.co/DR9pjsC/71r-VIZi-Npd-L-SX569-SX-UX-SY-UY.jpg"
-            }
-        ],
-        "size": [
-            {
-                "size_id": 2,
-                "size": "S"
-            },
-            {
-                "size_id": 3,
-                "size": "M"
-            },
-            {
-                "size_id": 4,
-                "size": "L"
-            }
-        ],
-        "description": [
-            "Care Instructions: Machine Wash",
-            "Fit Type: Slim",
-            "Material: Cotton",
-            "Machine wash",
-            "Made in India"
-        ]         
-    },
-    {
-        "product_id": 8,
-        "title": "RARE Women's Regular fit Top",
-        "age_group": "adult",
-        "department": "women",
-        "availablility": "In Stock",
-        "rating": 4,
-        "category": "TopWear",
-        "sub-category": "Tops",
-        "price": 765,
-        "product_image": "https://i.ibb.co/cDd3wJH/71-M6-Vcyb-JML-UY741.jpg", 
-        "colour" : [
-            {
-                "colour_id": 6,
-                "colour": "White",
-                "image": "https://i.ibb.co/cDd3wJH/71-M6-Vcyb-JML-UY741.jpg"
-            }
-        ],
-        "size": [
-            {
-                "size_id": 2,
-                "size": "S"
-            },
-            {
-                "size_id": 3,
-                "size": "M"
-            },
-            {
-                "size_id": 4,
-                "size": "L"
-            },
-            {
-                "size_id": 5,
-                "size": "XL"
-            }
-        ],
-        "description": [
-            "Care Instructions: Machine Wash",
-            "Fit Type: Regular fit",
-            "Material: Crepe",
-            "Machine wash",
-            "Sleeveless",
-            "Banded collar"
-        ]         
-    },
-    {
-        "product_id": 9,
-        "title": "RARE Women's Regular fit Top",
-        "age_group": "adult",
-        "department": "women",
-        "availablility": "In Stock",
-        "rating": 4,
-        "category": "TopWear",
-        "sub-category": "Jackets",
-        "price": 535,
-        "product_image": "https://i.ibb.co/SV4LSDB/71-FLJs-FGPz-L-SX679-SX-UX-SY-UY.jpg", 
-        "colour" : [
-            {
-                "colour_id": 1,
-                "colour": "Blue",
-                "image": "https://i.ibb.co/SV4LSDB/71-FLJs-FGPz-L-SX679-SX-UX-SY-UY.jpg"
-            },
-            {
-                "colour_id": 4,
-                "colour": "Black",
-                "image": "https://i.ibb.co/SshBPp7/71-a-LFBig8-L-UX679.jpg"
-            }
-        ],
-        "size": [
-            {
-                "size_id": 2,
-                "size": "S"
-            },
-            {
-                "size_id": 3,
-                "size": "M"
-            },
-            {
-                "size_id": 4,
-                "size": "L"
-            }
-        ],
-        "description": [
-            "Care Instructions: Machine Wash",
-            "Fit Type: Slim Fit",
-            "Product Type - Denim Jacket; Fabric - Denim",
-            "Pattern - Solid, Washed, Closure - Buttoned; Casual, Work",
-            "Sleeve Type: Long Sleeve",
-            "Age Range Description: Adult; Fit Type: Slim Fit"
-        ]         
-    },
-    {
-        "product_id": 10,
-        "title": "RARE Women's Regular fit Top",
-        "age_group": "adult",
-        "department": "women",
-        "availablility": "Out of Stock",
-        "rating": 4,
-        "category": "TopWear",
-        "sub-category": "Dresses",
-        "price": 535,
-        "product_image": "https://i.ibb.co/SV4LSDB/71-FLJs-FGPz-L-SX679-SX-UX-SY-UY.jpg", 
-        "colour" : [
-            {
-                "colour_id": 1,
-                "colour": "Blue",
-                "image": "https://i.ibb.co/SV4LSDB/71-FLJs-FGPz-L-SX679-SX-UX-SY-UY.jpg"
-            },
-            {
-                "colour_id": 4,
-                "colour": "Black",
-                "image": "https://i.ibb.co/SshBPp7/71-a-LFBig8-L-UX679.jpg"
-            }
-        ],
-        "size": [
-            {
-                "size_id": 2,
-                "size": "S"
-            },
-            {
-                "size_id": 3,
-                "size": "M"
-            },
-            {
-                "size_id": 4,
-                "size": "L"
-            }
-        ],
-        "description": [
-            "Care Instructions: Machine Wash",
-            "Fit Type: Slim Fit",
-            "Product Type - Denim Jacket; Fabric - Denim",
-            "Pattern - Solid, Washed, Closure - Buttoned; Casual, Work",
-            "Sleeve Type: Long Sleeve",
-            "Age Range Description: Adult; Fit Type: Slim Fit"
-        ]         
-    },
-    {
-        "product_id": 11,
-        "title": "Womens and Girls Solid Cotton Shirt Dress",
-        "age_group": "adult",
-        "department": "Women",
-        "availablility": "Out of Stock",
-        "rating": 4,
-        "category": "TopWear",
-        "sub-category": "Dresses",
-        "price": 927,
-        "product_image": "https://i.ibb.co/ZdFbQy1/615-D2u-Mc-Gb-L-UY741.jpg",
-        "colour" : [
-            {
-                "colour_id": 3,
-                "colour": "Red",
-                "image": "https://i.ibb.co/ZdFbQy1/615-D2u-Mc-Gb-L-UY741.jpg"
-            }
-        ],
-        "size": [
-            {
-                "size_id": 1,
-                "size": "XS"
-            },
-            {
-                "size_id": 2,
-                "size": "S"
-            },
-            {
-                "size_id": 3,
-                "size": "M"
-            },
-            {
-                "size_id": 4,
-                "size": "L"
-            },
-            {
-                "size_id": 5,
-                "size": "XL"
-            }
-        ],
-        "description": [
-            "Care Instructions: Wash in cold water",
-            "Fit Type: Regular",
-            "Fit Type: Regular Fit; Main material: 100% Cotton , 320GSM (Bio-Washed & Pre-XShrunk for Minimum shrinkage)",
-            "Actual Products color may vary with product due to monitor settings"
-        ]        
-    },
-    {
-        "product_id": 12,
-        "title": "AKA CHIC Women's Flared Jeans",
-        "age_group": "adult",
-        "department": "Women",
-        "availablility": "In Stock",
-        "rating": 5,
-        "category": "BottomWear",
-        "sub-category": "Jeans",
-        "price": 889,
-        "product_image": "https://i.ibb.co/8Yx2RCf/71-upfgm-Te-L-UX569.jpg",
-        "colour" : [
-            {
-                "colour_id": 1,
-                "colour": "Blue",
-                "image": "https://i.ibb.co/8Yx2RCf/71-upfgm-Te-L-UX569.jpg"
-            },
-            {
-                "colour_id": 4,
-                "colour": "Black",
-                "image": "https://i.ibb.co/q1xQndJ/71-Inzsh-OVx-L-SX569-SX-UX-SY-UY.jpg"
-            }
-        ],
-        "size": [
-            {
-                "size_id": 1,
-                "size": "XS"
-            },
-            {
-                "size_id": 2,
-                "size": "S"
-            },
-            {
-                "size_id": 3,
-                "size": "M"
-            },
-            {
-                "size_id": 4,
-                "size": "L"
-            },
-            {
-                "size_id": 5,
-                "size": "XL"
-            }
-        ],
-        "description": [
-            "Care Instructions: Machine Wash",
-            "Fit Type: Flared Fit",
-            "Form flattering Jeans that fits slim through hip and thigh and becomes wider from the knees downward",
-            "High Rise 2 back pocket jeans in full length",
-            "Material - 100% Cotton",
-            "Zip fly with button closure",
-            "Type of Wash - Dark Wash"
         ]        
     }
 ]

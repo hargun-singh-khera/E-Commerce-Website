@@ -10,26 +10,26 @@ import './Items.css';
 //                     <div className="card-image">
 //                         <img src="" alt="" />
 //                     </div>
-//                     <div class="card-body">
-//                         <h6 class="card-title">{item.title}</h6>
+//                     <div className="card-body">
+//                         <h6 className="card-title">{item.title}</h6>
 //                         <h3>&#8377; {item.price}</h3>
 //                         <h5>
 //                             <span style={{ color: item.availablility === "In Stock" ? "Green" : "Red" }}>{item.availablility}</span>
 //                         </h5>
 //                     </div>
 //                 </div>
-//                 <div class="garments-collection-container">
-//                     <div class="card-group card-image-container">
-//                         <div class="card clothes-image-container">
+//                 <div className="garments-collection-container">
+//                     <div className="card-group card-image-container">
+//                         <div className="card clothes-image-container">
 //                             <img src={item.product_image} alt="" />
-//                             <h6 class="card-title">{item.title}</h6>
+//                             <h6 className="card-title">{item.title}</h6>
 //                             <h3>&#8377; {item.price}</h3>
 //                             <h5>
 //                                 <span style={{ color: item.availablility === "In Stock" ? "Green" : "Red" }}>{item.availablility}</span>
 //                             </h5>
 //                         </div>
-//                         <div class="card clothes-image-container">
-//                             <img src={"https://i.ibb.co/KWfR5SJ/e38bcd96-1336-48cd-87c0-cbe04bbc7e041632164085479-ONLYWomen-Orange-Printed-Hooded-Sweatshirt1.png"} class="card-img-top" alt="..." />
+//                         <div className="card clothes-image-container">
+//                             <img src={"https://i.ibb.co/KWfR5SJ/e38bcd96-1336-48cd-87c0-cbe04bbc7e041632164085479-ONLYWomen-Orange-Printed-Hooded-Sweatshirt1.png"} className="card-img-top" alt="..." />
 //                             <h6>
 //                                 <p>ONLY</p>
 //                             </h6>
@@ -48,7 +48,7 @@ import './Items.css';
 //             <div className="items">
 //                 {renderProduct}
 //             </div>
-//             <div class="container">
+//             <div className="container">
 //                 <Filter/>
 //                 {renderProduct}
 //             </div>
@@ -99,7 +99,7 @@ const Product = (props) => {
                             <div className="my-3">
                                 <div className="card-group">
                                     {/* <a href="#product_id"> */}
-                                    <Link to={`/men/${item.product_id}`} style={{ textDecoration: 'none', color: '#212529' }}>
+                                    <Link to={`${item.product_id}`} style={{ textDecoration: 'none', color: '#212529' }}>
                                         {/* {item.product_id} */}
                                         <div className="card">
                                             <img src={item.product_image} className="card-img-top" alt="..." />

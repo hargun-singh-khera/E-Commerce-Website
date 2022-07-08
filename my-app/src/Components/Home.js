@@ -11,7 +11,7 @@ export default function Home() {
             {/* <Modals /> */}
             {/* Adding dissmissable discount alert */}
             <div className="alert alert-info alert-dismissible fade show price-alert" role="alert">
-                <i class="bi bi-megaphone-fill"></i>Get upto flat <strong className="strong-1">50% Off</strong> on your first purchase.
+                <i className="bi bi-megaphone-fill"></i>Get upto flat <strong className="strong-1">50% Off</strong> on your first purchase.
                 <strong className="strong-2"> Hurry Up. Limited Time Offer Only!</strong>
                 <a href="#Women-Men"><span className="badge rounded-pill bg-success">Shop Now</span></a>
                 <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"> </button>

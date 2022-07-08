@@ -27,11 +27,11 @@ class Men extends Component {
             <>
                 <MenCarousel />
                 {/* <Items prodData={this.state.product}/> */}
-                {/* <div class="garments-collection-container">
-                    <div class="card-group card-image-container">
-                        <div class="card clothes-image-container">
+                {/* <div className="garments-collection-container">
+                    <div className="card-group card-image-container">
+                        <div className="card clothes-image-container">
                             <img src={this.state.product_image} alt="" />
-                            <h6 class="card-title">{this.state.title}</h6>
+                            <h6 className="card-title">{this.state.title}</h6>
                             <h3>&#8377; {this.state.price}</h3>
                             <h5>
                                 <span style={{ color: this.state.availablility === "In Stock" ? "Green" : "Red" }}>{this.state.availablility}</span>
@@ -40,10 +40,10 @@ class Men extends Component {
                     </div>
                 </div>                 */}
                 {/* <Filter/> */}
-                <div class="filters-with-clothes-container">
+                <div className="filters-with-clothes-container">
                     <Filter />
-                    <div class="garments-collection-container">
-                        <div class="card-group card-image-container">
+                    <div className="garments-collection-container">
+                        <div className="card-group card-image-container">
                             <div className="container my-3">
                                 {/* <div className="row ">
                                     {this.state.product.map((item) => {
