@@ -1,1 +1,0 @@
-E-Commerce-Website(Garments) This repository contains information and code base for an e-commerce website developed by me.

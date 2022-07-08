@@ -1,0 +1,107 @@
+.justify-content-center {
+    margin-right: 40%;
+}
+
+.navbar-brand {
+    margin-right: 7rem;
+    margin-left: 1rem;
+}
+.navbar-brand img {
+    width:150px;
+}
+.navbar {
+    min-height: 50px;
+}
+.nav-cf {
+    margin-top: -18px;
+    margin-bottom: -10px;
+}
+.nav-cf-1 {
+    padding-bottom: -300px;
+}
+.nav-cf-1 li {
+    padding-top: 2px;
+    font-weight: 500;
+}
+.nav-item{
+    padding-right:25px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+/* Styling of Alert content */
+.price-alert {
+    margin-bottom: -10px;
+    margin-top: -10px;
+    padding-top: 3px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: medium;
+}
+.alert-dismissible .btn-close {
+    padding: 1.0rem 1rem;
+}
+.price-alert .btn-close {
+    font-size: 10px;
+}
+.strong-1 {
+    color: red;
+}
+.strong-2 {
+    color: brown;
+}
+
+.bg-success {
+    margin-left: 20px;
+}
+
+.d-flex.d-flex-form {
+    margin-top: 9px;
+    margin-right: 35px;
+}
+
+.d-flex.d-flex-form .btn.btn-outline-success{
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 0.2rem 0.5rem;
+}
+.d-flex .me-2 {
+    display: inline-block;
+    margin-left: 10px;
+    height: 35px;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 7px 180px 10px 15px;
+    border-radius: 4px 4px 4px 4px;
+    color: #696e79;
+}
+
+.dropdown-toggle::after {
+    margin-left: 0.50em;
+}
+
+.visually-hidden {
+    color: black;
+}
+
+
+
+#cart-logo {
+    text-decoration: none;
+    color: black
+}
+
+
+/* Aligning the contents of navbar profile,wishlist, and cart icons with name */
+.container-icon-nav {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 11px;
+    font-weight: bold;
+}
+.sub-container-icon-nav {
+    float: left;
+    margin-left: 12px;
+    margin-right: 12px;
+}

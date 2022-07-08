@@ -1,24 +1,140 @@
 [
     {
         "product_id": 1,
-        "title": "More & More Unisex-Adult Cotton Hooded Neck Star War Printed Hoodie",
+        "title": "Jockey Men's Regular Fit V Neck Half Sleeved T-Shirt",
         "age_group": "adult",
-        "gender": "unisex",
+        "department": "men",
         "availablility": "In Stock",
         "rating": 4,
-        "category": "TopWear",
-        "sub-category": "Hoodie",
-        "price": 657,
+        "category": "BottomWear",
+        "sub-category": "Jeans",
+        "price": 975,
         "colour" : [
             {
                 "colour_id": 1,
                 "colour": "Blue",
-                "image": "https://i.ibb.co/kG9BmfD/41-X50-USMBSL.jpg"
+                "image": "https://i.ibb.co/ydRCG15/71-g3uvei-VL-UY741.jpg"
             },
             {
                 "colour_id": 2,
                 "colour": "Yellow",
-                "image": "https://i.ibb.co/wCbgQKY/41v-Wik-VP5-ML.jpg"
+                "image": "https://i.ibb.co/hZWYCgY/71-VLdz-Bvy-L-SY741-SX-UX-SY-UY.jpg"
+            },
+            {
+                "colour_id": 3,
+                "colour": "Red",
+                "image": "https://i.ibb.co/W6TQ4Zm/71nls-Sg-G8-L-SY741-SX-UX-SY-UY.jpg"
+            },
+            {
+                "colour_id": 4,
+                "colour": "Black",
+                "image": "https://i.ibb.co/7NWMJLs/71s-Gf-OZcpw-L-UY741.jpg"
+            },
+            {
+                "colour_id": 5,
+                "colour": "Green",
+                "image": "https://i.ibb.co/fFZ0Dt8/71-NOnghf-HOL-SX569-SX-UX-SY-UY.jpg"
+            }
+        ],
+        "size": [
+            {
+                "size_id": 2,
+                "size": "S"
+            },
+            {
+                "size_id": 3,
+                "size": "M"
+            },
+            {
+                "size_id": 4,
+                "size": "L"
+            },
+            {
+                "size_id": 5,
+                "size": "XL"
+            }
+        ],
+        "description": [
+            "Super combed Cotton Rich fabric",
+            "Ribbed V-neck to prevent sagging",
+            "Regular fit",
+            "Label free for all day comfort"
+        ]        
+    },
+    {
+        "product_id": 2,
+        "title": "Neostreak Men's Slim Fit Stretchable Jeans",
+        "age_group": "adult",
+        "department": "men",
+        "availablility": "In Stock",
+        "rating": 4,
+        "category": "TopWear",
+        "sub-category": "T-shirts",
+        "price": 625,
+        "colour" : [
+            {
+                "colour_id": 1,
+                "colour": "Navy Blue",
+                "image": "https://i.ibb.co/85vyZ57/71kg-OQD5w-RL-SX679-SX-UX-SY-UY.jpg"
+            },
+            {
+                "colour_id": 2,
+                "colour": "Dark Green",
+                "image": "https://i.ibb.co/jDfwLh2/61b-Doqhv-EPL-UX679.jpg"
+            },
+            {
+                "colour_id": 3,
+                "colour": "Olive Green",
+                "image": "https://i.ibb.co/w4crcVy/61-Rgh-AQa-Sw-L-SX679-SX-UX-SY-UY.jpg"
+            },
+            {
+                "colour_id": 4,
+                "colour": "White Gray",
+                "image": "https://i.ibb.co/KK1gWN2/71p-NMaxj-Ft-L-SX679-SX-UX-SY-UY.jpg"
+            },
+            {
+                "colour_id": 5,
+                "colour": "Mustard",
+                "image": "https://i.ibb.co/Hn9K8y0/61-A-e7-B3-V5-L-SX679-SX-UX-SY-UY.jpg"
+            }
+        ],
+        "size": [
+            {
+                "size_id": 2,
+                "size": "S"
+            },
+            {
+                "size_id": 3,
+                "size": "M"
+            },
+            {
+                "size_id": 4,
+                "size": "L"
+            }
+        ],
+        "description": [
+            "Care Instructions: Machine Wash",
+            "Fit Type: Slim",
+            "Material: Cotton",
+            "Machine wash",
+            "Made in India"
+        ]         
+    },
+    {
+        "product_id": 3,
+        "title": "The Souled Store Burgundy Womens and Girls Solid Cotton Womens Shirt Dress",
+        "age_group": "adult",
+        "department": "Women",
+        "availablility": "In Stock",
+        "rating": 4,
+        "category": "TopWear",
+        "sub-category": "Dresses",
+        "price": 927,
+        "colour" : [
+            {
+                "colour_id": 3,
+                "colour": "Red",
+                "image": "https://i.ibb.co/ZdFbQy1/615-D2u-Mc-Gb-L-UY741.jpg"
             }
         ],
         "size": [
@@ -41,10 +157,6 @@
             {
                 "size_id": 5,
                 "size": "XL"
-            },
-            {
-                "size_id": 6,
-                "size": "XXL"
             }
         ],
         "description": [
@@ -55,25 +167,25 @@
         ]        
     },
     {
-        "product_id": 2,
-        "title": "More & More Unisex-Adult Cotton Hooded Neck Star War Printed Hoodie",
+        "product_id": 4,
+        "title": "AKA CHIC Women's Flared Jeans",
         "age_group": "adult",
-        "gender": "unisex",
+        "department": "Women",
         "availablility": "In Stock",
-        "rating": 4,
-        "category": "TopWear",
-        "sub-category": "Hoodie",
-        "price": 657,
+        "rating": 5,
+        "category": "BottomWear",
+        "sub-category": "Jeans",
+        "price": 889,
         "colour" : [
             {
                 "colour_id": 1,
                 "colour": "Blue",
-                "image": "https://i.ibb.co/kG9BmfD/41-X50-USMBSL.jpg"
+                "image": "https://i.ibb.co/8Yx2RCf/71-upfgm-Te-L-UX569.jpg"
             },
             {
-                "colour_id": 2,
-                "colour": "Yellow",
-                "image": "https://i.ibb.co/wCbgQKY/41v-Wik-VP5-ML.jpg"
+                "colour_id": 4,
+                "colour": "Black",
+                "image": "https://i.ibb.co/q1xQndJ/71-Inzsh-OVx-L-SX569-SX-UX-SY-UY.jpg"
             }
         ],
         "size": [
@@ -96,60 +208,17 @@
             {
                 "size_id": 5,
                 "size": "XL"
-            },
-            {
-                "size_id": 6,
-                "size": "XXL"
-            }
-        ]        
-    },
-    {
-        "product_id": 3,
-        "title": "More & More Unisex-Adult Cotton Hooded Neck Star War Printed Hoodie",
-        "age_group": "adult",
-        "gender": "unisex",
-        "availablility": "In Stock",
-        "rating": 4,
-        "category": "TopWear",
-        "sub-category": "Hoodie",
-        "price": 657,
-        "colour" : [
-            {
-                "colour_id": 1,
-                "colour": "Blue",
-                "image": "https://i.ibb.co/kG9BmfD/41-X50-USMBSL.jpg"
-            },
-            {
-                "colour_id": 2,
-                "colour": "Yellow",
-                "image": "https://i.ibb.co/wCbgQKY/41v-Wik-VP5-ML.jpg"
             }
         ],
-        "size": [
-            {
-                "size_id": 1,
-                "size": "XS"
-            },
-            {
-                "size_id": 2,
-                "size": "S"
-            },
-            {
-                "size_id": 3,
-                "size": "M"
-            },
-            {
-                "size_id": 4,
-                "size": "L"
-            },
-            {
-                "size_id": 5,
-                "size": "XL"
-            },
-            {
-                "size_id": 6,
-                "size": "XXL"
-            }
+        "description": [
+            "Care Instructions: Machine Wash",
+            "Fit Type: Flared Fit",
+            "Form flattering Jeans that fits slim through hip and thigh and becomes wider from the knees downward",
+            "High Rise 2 back pocket jeans in full length",
+            "Material - 100% Cotton",
+            "Zip fly with button closure",
+            "Type of Wash - Dark Wash"
         ]        
     }
 ]
+
