@@ -7,3 +7,16 @@
 .fas.fa-heart {
     color: #f1032d;
 }
+
+p.text-muted {
+    margin-right: -10px;
+}
+
+.col.mb-3 h5 {
+    margin-bottom: 30px;
+}
+
+.list-unstyled {
+    text-align: center;
+    align-items: center;
+}

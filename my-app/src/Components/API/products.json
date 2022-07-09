@@ -394,3 +394,241 @@
     }
 ]
 
+[
+    {
+        "product_id": 1,
+        "title": "ONLY Women's Regular T-Shirt",
+        "age_group": "adult",
+        "department": "Women",
+        "availablility": "In Stock",
+        "rating": 4,
+        "category": "TopWear",
+        "sub-category": "T-Shirt",
+        "price": 659,
+        "product_image": "https://i.ibb.co/Snydvy5/71-Jwm5-J57-DL-UY741.jpg",
+        "colour" : [
+            {
+                "colour_id": 1,
+                "colour": "Blue",
+                "image": "https://i.ibb.co/DRpv5R7/613-HDCn-Ua-ML-SY741-SX-UX-SY-UY.jpg"
+            },
+            {
+                "colour_id": 2,
+                "colour": "Yellow",
+                "image": "https://i.ibb.co/x7WNBSy/6177-B9-HEd2-L-SY741-SX-UX-SY-UY.jpg"
+            },
+            {
+                "colour_id": 5,
+                "colour": "Green",
+                "image": "https://i.ibb.co/Snydvy5/71-Jwm5-J57-DL-UY741.jpg"
+            }
+        ],
+        "size": [
+            {
+                "size_id": 1,
+                "size": "XS"
+            },
+            {
+                "size_id": 2,
+                "size": "S"
+            },
+            {
+                "size_id": 3,
+                "size": "M"
+            }
+        ],
+        "description": [
+            "Care Instructions: Machine Wash",
+            "Fit Type: Regular fit",
+            "Neck :: Round",
+            "Fabric Composition :: 100% Cotton",
+            "Wash Care :: Machine Wash as per Tag"
+        ]        
+    },
+    {
+        "product_id": 2,
+        "title": "Womens and Girls Solid Cotton Shirt Dress",
+        "age_group": "adult",
+        "department": "Women",
+        "availablility": "Out of Stock",
+        "rating": 4,
+        "category": "TopWear",
+        "sub-category": "Dresses",
+        "price": 927,
+        "product_image": "https://i.ibb.co/ZdFbQy1/615-D2u-Mc-Gb-L-UY741.jpg",
+        "colour" : [
+            {
+                "colour_id": 3,
+                "colour": "Red",
+                "image": "https://i.ibb.co/ZdFbQy1/615-D2u-Mc-Gb-L-UY741.jpg"
+            }
+        ],
+        "size": [
+            {
+                "size_id": 1,
+                "size": "XS"
+            },
+            {
+                "size_id": 2,
+                "size": "S"
+            },
+            {
+                "size_id": 3,
+                "size": "M"
+            },
+            {
+                "size_id": 4,
+                "size": "L"
+            },
+            {
+                "size_id": 5,
+                "size": "XL"
+            }
+        ],
+        "description": [
+            "Care Instructions: Wash in cold water",
+            "Fit Type: Regular",
+            "Fit Type: Regular Fit; Main material: 100% Cotton , 320GSM (Bio-Washed & Pre-XShrunk for Minimum shrinkage)",
+            "Actual Products color may vary with product due to monitor settings"
+        ]        
+    },
+    {
+        "product_id": 3,
+        "title": "RARE Women's Regular fit Top",
+        "age_group": "adult",
+        "department": "Women",
+        "availablility": "Out of Stock",
+        "rating": 4,
+        "category": "TopWear",
+        "sub-category": "Tops",
+        "price": 765,
+        "product_image": "https://i.ibb.co/cDd3wJH/71-M6-Vcyb-JML-UY741.jpg",
+        "colour" : [
+            {
+                "colour_id": 6,
+                "colour": "White",
+                "image": "https://i.ibb.co/cDd3wJH/71-M6-Vcyb-JML-UY741.jpg"
+            }
+        ],
+        "size": [
+            {
+                "size_id": 2,
+                "size": "S"
+            },
+            {
+                "size_id": 3,
+                "size": "M"
+            },
+            {
+                "size_id": 4,
+                "size": "L"
+            },
+            {
+                "size_id": 5,
+                "size": "XL"
+            }
+        ],
+        "description": [
+            "Care Instructions: Machine Wash",
+            "Fit Type: Regular fit",
+            "Material: Crepe",
+            "Machine wash",
+            "Sleeveless",
+            "Banded collar"
+        ]        
+    },
+    {
+        "product_id": 4,
+        "title": "AKA CHIC Women's Flared Jeans",
+        "age_group": "adult",
+        "department": "Women",
+        "availablility": "In Stock",
+        "rating": 4,
+        "category": "BottomWear",
+        "sub-category": "Jeans",
+        "price": 889,
+        "product_image": "https://i.ibb.co/8Yx2RCf/71-upfgm-Te-L-UX569.jpg",
+        "colour" : [
+            {
+                "colour_id": 1,
+                "colour": "Blue",
+                "image": "https://i.ibb.co/8Yx2RCf/71-upfgm-Te-L-UX569.jpg"
+            },
+            {
+                "colour_id": 4,
+                "colour": "Black",
+                "image": "https://i.ibb.co/q1xQndJ/71-Inzsh-OVx-L-SX569-SX-UX-SY-UY.jpg"
+            }
+        ],
+        "size": [
+            {
+                "size_id": 2,
+                "size": "S"
+            },
+            {
+                "size_id": 3,
+                "size": "M"
+            },
+            {
+                "size_id": 4,
+                "size": "L"
+            }
+        ],
+        "description": [
+            "Care Instructions: Machine Wash",
+            "Fit Type: Flared Fit",
+            "Form flattering Jeans that fits slim through hip and thigh and becomes wider from the knees downward",
+            "High Rise 2 back pocket jeans in full length",
+            "Material - 100% Cotton",
+            "Zip fly with button closure",
+            "Type of Wash - Dark Wash"
+        ]        
+    },
+    {
+        "product_id": 5,
+        "title": "DIMPY GARMENTS Solid Regular Denim Jacket",
+        "age_group": "adult",
+        "department": "Women",
+        "availablility": "In Stock",
+        "rating": 4,
+        "category": "BottomWear",
+        "sub-category": "Jackets",
+        "price": 535,
+        "product_image": "https://i.ibb.co/SV4LSDB/71-FLJs-FGPz-L-SX679-SX-UX-SY-UY.jpg",
+        "colour" : [
+            {
+                "colour_id": 1,
+                "colour": "Blue",
+                "image": "https://i.ibb.co/SV4LSDB/71-FLJs-FGPz-L-SX679-SX-UX-SY-UY.jpg"
+            },
+            {
+                "colour_id": 4,
+                "colour": "Black",
+                "image": "https://i.ibb.co/SshBPp7/71-a-LFBig8-L-UX679.jpg"
+            }
+        ],
+        "size": [
+            {
+                "size_id": 2,
+                "size": "S"
+            },
+            {
+                "size_id": 3,
+                "size": "M"
+            },
+            {
+                "size_id": 4,
+                "size": "L"
+            }
+        ],
+        "description": [
+            "Care Instructions: Machine Wash",
+            "Fit Type: Slim Fit",
+            "Product Type - Denim Jacket; Fabric - Denim",
+            "Pattern - Solid, Washed, Closure - Buttoned; Casual, Work",
+            "Sleeve Type: Long Sleeve",
+            "Age Range Description: Adult; Fit Type: Slim Fit"
+        ]        
+    }
+]
+

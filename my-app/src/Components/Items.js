@@ -87,6 +87,7 @@ import './Items.css';
 // }
 
 import { Link } from 'react-router-dom';
+import Rating from './Rating';
 // import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 const Product = (props) => {
@@ -106,11 +107,7 @@ const Product = (props) => {
                                             <div className="card-body">
                                                 <h5 className="card-title">{item.title}</h5>
                                                 <div className="rating-container">
-                                                    <i className="bi bi-star-fill"></i>
-                                                    <i className="bi bi-star-fill"></i>
-                                                    <i className="bi bi-star-fill"></i>
-                                                    <i className="bi bi-star-fill"></i>
-                                                    <i className="bi bi-star"></i>
+                                                    <Rating val = {item.rating}/>
                                                 </div>
                                                 <h3 id="product-price" style={{color: "#e00b0b",  marginTop: "15px", marginBottom: "0px"}} >&#8377; {item.price}</h3>
                                                 <h5>

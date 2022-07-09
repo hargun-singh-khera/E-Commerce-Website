@@ -33,9 +33,9 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/men" element={<Men />} />
-          <Route exact path={`/men/product`} element={<MenProduct />} />
+          <Route exact path={"/men/:productId/:productName"} element={<MenProduct />} />
           <Route exact path="/women" element={<Women />} />
-          <Route exact path="/women/product" element={<WomenProduct />} />
+          <Route exact path="/women/:productId/:productName" element={<WomenProduct />} />
           <Route exact path="/cart" element={<Cart />} />
         </Routes>
         <Footer />

@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Rating from './Rating';
 
 const ProductItem = (props) => {
     const renderProduct = ({ productData }) => {
@@ -16,11 +17,7 @@ const ProductItem = (props) => {
                                         <div className="card-body">
                                             <h1 id="product-title">{item.title}</h1>
                                             <div className="rating-container">
-                                                <i className="bi bi-star-fill"></i>
-                                                <i className="bi bi-star-fill"></i>
-                                                <i className="bi bi-star-fill"></i>
-                                                <i className="bi bi-star-fill"></i>
-                                                <i className="bi bi-star"></i>
+                                                <Rating val = {item.rating}/>
                                             </div>
                                             <hr />
                                             <h6 id="price">Price: <span id="product-price">&#8377; {item.price}</span></h6>
@@ -46,7 +43,7 @@ const ProductItem = (props) => {
                                                     )
                                                 })}
                                             </div>
-                                            <h6>Size:</h6>
+                                            <h6 style={{marginTop: '10px'}}>Size:</h6>
                                             <div className="dropdown">
                                                 <button className="btn btn-sm dropdown-toggle dropdown-toggle-size" type="button" data-bs-toggle="dropdown"
                                                     aria-expanded="false">
