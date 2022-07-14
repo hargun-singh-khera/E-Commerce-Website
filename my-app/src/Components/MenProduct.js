@@ -30,7 +30,7 @@ class MenProduct extends Component {
                         </>
                     )
                 })} */}
-                <ProductItem productData = {this.state.product}/>;
+                <ProductItem productData = {this.state.product}/>
             </>
         );
     }

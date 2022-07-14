@@ -78,7 +78,6 @@ const ProductItem = (props) => {
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </>
                 )

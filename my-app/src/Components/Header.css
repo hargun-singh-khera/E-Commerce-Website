@@ -114,10 +114,6 @@
     font-weight: bold;
 }
 
-.navbar.navbar-expand-lg.navbar-light.bg-light.nav-cf {
-    position: sticky;
-}
-
 .dropdown.text-end {
     margin-right: 100px;
 }
