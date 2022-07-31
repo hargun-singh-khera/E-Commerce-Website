@@ -2,8 +2,12 @@ import React, { Component } from 'react';
 import './Men.css';
 import Items from './Items';
 import MenCarousel from './MenCarousel';
+import MenProduct from './MenProduct';
 // import JSON from './API/products.json';
 import Filter from './Filter';
+import { Link } from 'react-router-dom';
+
+// import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
 const productUrl = "https://restapipractice2.herokuapp.com/men";
@@ -67,6 +71,7 @@ class Men extends Component {
         );
     }
     componentDidMount(){
+        console.log("In mens mount method");
         fetch(productUrl,{method:'GET'})
         .then((res)=>res.json())
         .then((data)=>{

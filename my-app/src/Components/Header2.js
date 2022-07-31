@@ -1,7 +1,7 @@
 import React from 'react'
 // import * as Icon from 'react-bootstrap-icons';
 import { Link } from 'react-router-dom';
-import './Header2.css';
+import './Header.css';
 
 
 export default function Header() {

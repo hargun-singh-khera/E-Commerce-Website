@@ -11,9 +11,15 @@ import Modals from './Components/Modals';
 import Men from './Components/Men';
 import Women from './Components/Women';
 import MenProduct from './Components/MenProduct';
+import ProductItem from './Components/ProductItem';
+import Product2 from './Components/Product2';
+
+import Bookings from './Components/Bookings';
 import WomenProduct from './Components/WomenProduct';
 import Cart from './Components/Cart';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+
+import Doctor from "./Components/Doctor";
 // import { Link } from 'react-router-dom';
 
 // filterProduct = (userText) => { 
@@ -27,19 +33,19 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        {/* <Header userInput={(data) => { this.filterProduct(data);}} /> */}
         <Header/>
         <Modals />
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/men" element={<Men />} />
-          <Route exact path={"/men/:productId/:productName"} element={<MenProduct />} />
-          <Route exact path="/women" element={<Women />} />
-          <Route exact path="/women/:productId/:productName" element={<WomenProduct />} />
-          <Route exact path="/cart" element={<Cart />} />
-        </Routes>
+        <Switch>
+          <Route exact path="/" component={Home}/>
+          <Route exact path="/men" component={Men}/>
+          <Route exact path="/men/:id" component={MenProduct}/>
+          <Route exact path="/women" component={Women}/>
+          <Route exact path="/women/:id" component={WomenProduct}/>
+          <Route exact path="/cart" component={Cart}/>
+        </Switch>
         <Footer />
       </BrowserRouter>
+        {/* <Header userInput={(data) => { this.filterProduct(data);}} /> */}
     </>
   );
 }

@@ -90,7 +90,7 @@ import { Link } from 'react-router-dom';
 import Rating from './Rating';
 // import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-const Product = (props) => {
+const Product = (props,url) => {
     const renderProduct = ({ productData }) => {
         if (productData) {
             return productData.map((item) => {
@@ -100,7 +100,8 @@ const Product = (props) => {
                             <div className="my-3">
                                 <div className="card-group">
                                     {/* <a href="#product_id"> */}
-                                    <Link to={`${item.product_id}`} style={{ textDecoration: 'none', color: '#212529' }}>
+                                    <Link id="link" to={`${item.department.toLowerCase()}/${item.product_id}`} onClick={()=>{window.scrollTo({top: 0, left: 0, behavior: 'smooth'});}}>
+                                    {/* <Link to={`${item.product_id}`} style={{ textDecoration: 'none', color: '#212529' }}> */}
                                         {/* {item.product_id} */}
                                         <div className="card">
                                             <img src={item.product_image} className="card-img-top" alt="..." />

@@ -19,3 +19,10 @@
     transform: scale(1.02741);
 }
 
+#link {
+    text-decoration: none;
+}
+
+.card-title {
+    color: rgba(0, 0, 0, 0.805);
+}

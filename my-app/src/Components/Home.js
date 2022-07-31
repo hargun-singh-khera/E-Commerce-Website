@@ -26,17 +26,17 @@ export default function Home() {
                 {/* Added Cards */}
                 <div className="card-group">
                     <div className="card men-women">
-                        <Link to="/women"><img src="https://i.ibb.co/c1zjMbR/a9ff3b-3be32fd5866944a0b2bd867c8e0dbaf9.jpg" className="card-img-top" alt="..."
+                        <Link to="/women" onClick={()=>{window.scrollTo({top: 0, left: 0, behavior: 'smooth'});}}><img src="https://i.ibb.co/c1zjMbR/a9ff3b-3be32fd5866944a0b2bd867c8e0dbaf9.jpg" className="card-img-top" alt="..."
                             width="100" /></Link>
                         <div className="card-body">
-                            <h5 className="card-title"><Link to="/women">Shop Women &gt;</Link></h5>
+                            <h5 className="card-title"><Link to="/women" onClick={()=>{window.scrollTo({top: 0, left: 0, behavior: 'smooth'});}}>Shop Women &gt;</Link></h5>
                         </div>
                     </div>
                     <div className="card men-women">
-                        <Link to="/men"><img src="https://i.ibb.co/KqTWnXQ/821f4f8cf3ab9cfd4f179e010f09eb27c4e5ca89-home-banner-2-2.jpg"
+                        <Link to="/men" onClick={()=>{window.scrollTo({top: 0, left: 0, behavior: 'smooth'});}}><img src="https://i.ibb.co/KqTWnXQ/821f4f8cf3ab9cfd4f179e010f09eb27c4e5ca89-home-banner-2-2.jpg"
                             className="card-img-top" alt="..." width="100" /></Link>
                         <div className="card-body">
-                            <h5 className="card-title"><Link to="/men">Shop Men &gt;</Link></h5>
+                            <h5 className="card-title"><Link to="/men" onClick={()=>{window.scrollTo({top: 0, left: 0, behavior: 'smooth'});}}>Shop Men &gt;</Link></h5>
                         </div>
                     </div>
                 </div>

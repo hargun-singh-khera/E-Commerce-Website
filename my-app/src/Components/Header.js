@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 import './Header.css';
 
 class Header extends Component {
-    handleChange = (event) => {
-        // console.log(event.target.value);
-        this.props.userInput(event.target.value);
-    }
+    // handleChange = (event) => {
+    //     // console.log(event.target.value);
+    //     this.props.userInput(event.target.value);
+    // }
     render() {
         return (
             <>
@@ -74,7 +74,7 @@ class Header extends Component {
                                     <a className="nav-link active" aria-current="page" href="#About">ABOUT</a>
                                 </li>
                                 <li className="nav-item" data-bs-toggle="modal" data-bs-target="#contactModal">
-                                    <a className="nav-link active contact-modal" aria-current="page" href="/#">CONTACT</a>
+                                    <a className="nav-link active contact-modal" aria-current="page" href="#contact">CONTACT</a>
                                 </li>
                             </ul>
                             <form className="d-flex d-flex-form">
