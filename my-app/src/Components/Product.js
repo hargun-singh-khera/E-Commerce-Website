@@ -4,31 +4,12 @@ import axios from 'axios';
 import product from './Product2';
 
 const productUrl = "https://restapipractice2.herokuapp.com/men";
-// const docUrl="https://fswdsummernodeapi.herokuapp.com/doctor"
 
 class ProductItem extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            product: '',
-            courses: [
-                {
-                    pageNo: 1,
-                    TotalRecordsCount: 8000,
-                    colour: [
-                        {
-                            id: 1,
-                            colour: "Blue",
-                        },
-
-                        {
-                            id: 2,
-                            colour: "Red"
-                        }
-                    ]
-                }
-            ]
-            // list: [{"colour": ["red","blue","green"]}]
+            product: ''
         }
     }
     render() {

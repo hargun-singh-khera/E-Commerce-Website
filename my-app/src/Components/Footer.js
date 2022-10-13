@@ -80,10 +80,10 @@ export default function Footer() {
                     <div class="col mb-3">
                         <h5>INFORMATION</h5>
                         <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="/#" class="nav-link p-0 text-muted">About Us</a></li>
+                            <li class="nav-item mb-2"><a href="#About" class="nav-link p-0 text-muted">About Us</a></li>
                             <li class="nav-item mb-2"><a href="/#" class="nav-link p-0 text-muted">Customer Service</a></li>
                             <li class="nav-item mb-2"><a href="/#" class="nav-link p-0 text-muted">Privacy</a></li>
-                            <li class="nav-item mb-2"><a href="/#" class="nav-link p-0 text-muted">Contact Us</a></li>
+                            <li class="nav-item mb-2" data-bs-toggle="modal" data-bs-target="#contactModal"><a className="nav-link p-0 text-muted contact-modal" aria-current="page" href="#contact">Contact Us</a></li>
                             <li class="nav-item mb-2"><a href="/#" class="nav-link p-0 text-muted">Orders & Returns</a></li>
                         </ul>
                     </div>
@@ -102,9 +102,9 @@ export default function Footer() {
                     <div class="col mb-3">
                         <h5>MY ACCOUNT</h5>
                         <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="/#" class="nav-link p-0 text-muted">Sign In</a></li>
-                            <li class="nav-item mb-2"><a href="/#" class="nav-link p-0 text-muted">View Cart</a></li>
-                            <li class="nav-item mb-2"><a href="/#" class="nav-link p-0 text-muted">My Wishlist</a></li>
+                            <li class="nav-item mb-2" data-bs-toggle="modal" data-bs-target="#loginModalToggle"><a href="#login" class="nav-link p-0 text-muted">Sign In</a></li>
+                            <li class="nav-item mb-2"><Link to="/cart" onClick={()=>{window.scrollTo({top: 0, left: 0, behavior: 'smooth'});}} id="cart-logo" class="nav-link p-0 text-muted">View Cart</Link></li>
+                            <li class="nav-item mb-2"><Link to="/wishlist" onClick={()=>{window.scrollTo({top: 0, left: 0, behavior: 'smooth'});}} id="cart-logo" class="nav-link p-0 text-muted"> Wishlist</Link></li>
                             <li class="nav-item mb-2"><a href="/#" class="nav-link p-0 text-muted">Track My Order</a></li>
                             <li class="nav-item mb-2"><a href="/#" class="nav-link p-0 text-muted">Help</a></li>
                         </ul>

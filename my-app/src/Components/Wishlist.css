@@ -1,0 +1,50 @@
+.btn-add-to-card {
+    border-radius: 5rem;
+    padding: 5px 60px;
+    color: black;
+    margin: 0px 0px;
+    background-color: yellow;
+    border: none;
+}
+
+.btn-delete {
+    border-radius: 5rem;
+    padding: 5px 80px;
+    color: black;
+    margin: 20px 0px;
+    background-color:aqua;
+    border: none;
+}
+
+
+.bi-star-fill {
+    margin: 0px;
+}
+
+h6 {
+    margin-top: 10px;
+}
+
+@media only screen and (min-width: 549px)
+{
+    .btn-delete{
+        margin: 10px 30px;
+    }
+    
+}
+
+
+
+@media only screen and (min-width: 450px) and (max-width: 548px)
+{
+
+    .btn-add-to-card {
+        padding: 5px 55px; 
+    }
+
+    .btn-delete{
+        margin: 10px 20px;
+        padding: 5px 65px;
+    }
+    
+}

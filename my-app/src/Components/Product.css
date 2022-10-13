@@ -97,21 +97,25 @@
 
 .btn-buy-now {
     border-radius: 3rem;
-    padding: 5px 34px;
+    padding: 5px 64px;
     color: black;
-    margin: 20px 20px;
+    margin: 20px 30px;
     background-color: orange;
     border: none;
 }
 .btn-add-to-wishlist {
     border-radius: 3rem;
-    padding: 5px 34px;
+    padding: 5px 44px;
     color: black;
-    margin: 20px 20px;
-    background-color: rgb(255 2 2 / 82%);
+    margin: 20px 0px;
+    /* background-color: rgb(255 2 2 / 82%); */
+    background-color: aqua;
     border: none;
 }
 
+.btn-container {
+    margin-left: 15px;
+}
 
 /* @media only screen and (max-width: 485px){
 	.btn-add-to-card {

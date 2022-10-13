@@ -101,8 +101,10 @@ class Header extends Component {
                                     <p>Profile</p>
                                 </div>
                                 <div className="sub-container-icon-nav">
+                                    <Link to="/wishlist" id="cart-logo">
                                     <i className="bi bi-heart" style={{ fontSize: "1.3rem" }}></i>
                                     <p>Wishlist</p>
+                                    </Link>
                                 </div>
                                 <div className="sub-container-icon-nav">
                                     <Link to="/cart" id="cart-logo">

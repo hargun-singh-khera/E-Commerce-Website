@@ -20,6 +20,7 @@ import Cart from './Components/Cart';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import Doctor from "./Components/Doctor";
+import Wishlist from "./Components/Wishlist";
 // import { Link } from 'react-router-dom';
 
 // filterProduct = (userText) => { 
@@ -41,6 +42,7 @@ function App() {
           <Route exact path="/men/:id" component={MenProduct}/>
           <Route exact path="/women" component={Women}/>
           <Route exact path="/women/:id" component={WomenProduct}/>
+          <Route exact path="/wishlist" component={Wishlist}/>
           <Route exact path="/cart" component={Cart}/>
         </Switch>
         <Footer />
