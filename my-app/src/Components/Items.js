@@ -116,7 +116,6 @@ const Product = (props,url) => {
                                                 </h5>
                                             </div>
                                         </div>
-                                        {/* </a> */}
                                     </Link>
                                 </div>
                             </div>

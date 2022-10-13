@@ -28,7 +28,7 @@ class ProductItem extends Component {
                                 <div className="card-body">
                                     <h1 id="product-title">{product.title}</h1>
                                     <div className="rating-container">
-                                        <Rating val={product.rating} />
+                                        {/* <Rating val={product.rating} /> */}
                                     </div>
                                     <hr />
                                     <h6 id="price">Price: <span id="product-price">&#8377; {product.price}</span></h6>

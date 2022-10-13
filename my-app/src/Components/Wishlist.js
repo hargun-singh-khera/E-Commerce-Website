@@ -22,12 +22,13 @@ export default function Wishlist() {
                         <div className="col-md-8">
                             <div className="card-body cart-card-body">
                                 <h5>Dennis Lingo Men's Checkered Slim fit Casual Shirt</h5>
-                                    <i className="bi bi-star-fill"></i>
-                                    <i className="bi bi-star-fill"></i>
-                                    <i className="bi bi-star-fill"></i>
-                                    <i className="bi bi-star-fill"></i>
-                                    <i className="bi bi-star-fill"></i>
-                                
+                                    <div className="rating">
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                    </div>
                                 <h6>
                                     Size: <span id="product-size"> XL &nbsp;|&nbsp; </span>
                                     Colour: <span id="product-colour"> Yellow  </span>
@@ -51,11 +52,13 @@ export default function Wishlist() {
                         <div className="col-md-8">
                             <div className="card-body cart-card-body">
                                 <h5>Dennis Lingo Men's Checkered Slim fit Casual Shirt</h5>
+                                <div className="rating">
                                     <i className="bi bi-star-fill"></i>
                                     <i className="bi bi-star-fill"></i>
                                     <i className="bi bi-star-fill"></i>
                                     <i className="bi bi-star-fill"></i>
                                     <i className="bi bi-star-fill"></i>
+                                </div>
                                 <h6>
                                     Size: <span id="product-size"> XL &nbsp;|&nbsp; </span>
                                     Colour: <span id="product-colour"> Yellow  </span>
