@@ -30,9 +30,9 @@
     color: brown;
 }
 
-/* @media only screen and (max-width: 477px) and (min-width: 323px) 
+@media only screen and (max-width: 477px) and (min-width: 323px) 
 {
     .filters-container {
         width: 175px;
     }
-} */
+}
