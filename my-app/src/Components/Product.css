@@ -40,15 +40,6 @@
     margin-top: 30px;
     /* background-color: yellow; */
 }
-/* .mb-3 {
-    background-color: yellow;
-
-} */
-/* .col-md-4{
-    background-color: green;
-    width: 40%;
-} */
-
 
 .rating-container {
     margin-left: 10px;
@@ -78,19 +69,16 @@
 }
 
 .filters-container {
-    /* width: 100%; */
-    /* background-color: red; */
     border: 1px solid;
     height: 100%; 
-    /* margin-right: 20px; */
     padding-right: 40px;
 }
 
-.btn-add-to-card {
+.btn-add-to-card2 {
     border-radius: 3rem;
-    padding: 5px 34px;
+    padding: 5px 64px;
     color: black;
-    margin: 20px 20px;
+    margin: 20px 10px;
     background-color: yellow;
     border: none;
 }
@@ -99,7 +87,7 @@
     border-radius: 3rem;
     padding: 5px 64px;
     color: black;
-    margin: 20px 30px;
+    margin: 10px 20px;
     background-color: orange;
     border: none;
 }
@@ -107,14 +95,43 @@
     border-radius: 3rem;
     padding: 5px 44px;
     color: black;
-    margin: 20px 0px;
-    /* background-color: rgb(255 2 2 / 82%); */
-    background-color: aqua;
+    margin: 10px 10px;
+    background-color: rgb(255 2 2 / 82%);
+    /* background-color: aqua; */
     border: none;
 }
 
 .btn-container {
-    margin-left: 15px;
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 450px)
+{
+    .btn-container {
+        margin-left: 5px;
+        margin-right: 6px;
+    }
+    .btn-add-to-card2 {
+        border-radius: 0.5rem;
+        margin: 5px 0px;
+        padding: 9px 0px;
+        width: 100%;
+    }
+
+    .btn-buy-now {
+        border-radius: 0.5rem;
+        margin: 5px 0px;
+        padding: 9px 0px;
+        width: 100%;
+
+    }
+
+    .btn-add-to-wishlist {
+        border-radius: 0.5rem;
+        margin: 5px 0px;
+        padding: 9px 0px;
+        width: 100%;
+    }
 }
 
 /* @media only screen and (max-width: 485px){

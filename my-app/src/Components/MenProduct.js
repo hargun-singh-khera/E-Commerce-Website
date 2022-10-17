@@ -18,7 +18,7 @@ class ProductItem extends Component {
 
                 {/* {this.renderProduct(this.state.product)} */}
                 <div className="product-details-container-2">
-                    <div className="card mb-3">
+                    <div className="card mb-3 ">
                         <div className="row g-0">
                             <div className="col-md-4">
                                 <img src={product.product_image} className="img-fluid rounded-start" alt="..." width="700" />
@@ -86,7 +86,7 @@ class ProductItem extends Component {
                                     </div>
                                 </div>
                                 <div className="btn-container"> 
-                                    <button type="button" className="btn btn-primary btn-sm btn-add-to-card">Add to Cart</button>
+                                    <button type="button" className="btn btn-primary btn-sm btn-add-to-card2">Add to Cart</button>
                                     <button type="button" className="btn btn-primary btn-sm btn-buy-now">Buy Now</button>
                                     <button type="button" className="btn btn-primary btn-sm btn-add-to-wishlist">Add to Wishlist</button>
                                 </div>
