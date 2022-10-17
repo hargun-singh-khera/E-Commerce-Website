@@ -108,8 +108,8 @@
 @media only screen and (max-width: 450px)
 {
     .btn-container {
-        margin-left: 5px;
-        margin-right: 6px;
+        margin-left: 15px;
+        margin-right: 16px;
     }
     .btn-add-to-card2 {
         border-radius: 0.5rem;
