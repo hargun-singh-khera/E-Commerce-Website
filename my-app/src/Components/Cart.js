@@ -12,7 +12,7 @@ export default function Cart() {
                     <a href="/#" id="cart-deselect-item">Deselect all items</a>
                     <hr />
                 </div>
-                <div className="card mb-3">
+                <div className="card mb-3 border-0">
                     <div className="row g-0">
                         <div className="col-md-4">
                             <img src="https://i.ibb.co/JHN4p00/be327827-401c-478b-8dfa-098750faadad1614061004812-1.jpg" className="img-fluid rounded-start"
@@ -52,7 +52,7 @@ export default function Cart() {
                     </div>
                 </div>
                 <hr id="lasthr" />
-                <div className="card mb-3">
+                <div className="card mb-3 border-0">
                     <div className="row g-0">
                         <div className="col-md-4">
                             <img src="https://i.ibb.co/JHN4p00/be327827-401c-478b-8dfa-098750faadad1614061004812-1.jpg" className="img-fluid rounded-start"

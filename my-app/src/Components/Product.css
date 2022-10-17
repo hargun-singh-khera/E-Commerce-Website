@@ -97,6 +97,7 @@
     color: black;
     margin: 10px 10px;
     background-color: rgb(255 2 2 / 82%);
+    /* background-color: rgba(249, 39, 106, 0.681); */
     /* background-color: aqua; */
     border: none;
 }
@@ -133,22 +134,3 @@
         width: 100%;
     }
 }
-
-/* @media only screen and (max-width: 485px){
-	.btn-add-to-card {
-        padding: 10px 134px;
-        margin-left: 32px;
-        margin-right: 32px;
-    }
-    .btn-buy-now {
-        padding: 10px 144px;
-        margin-left: 32px;
-        margin-right: 32px;
-    }
-    .btn-add-to-wishlist {
-        padding: 10px 124px;
-        margin-left: 32px;
-        margin-right: 32px;
-    }
-
-} */

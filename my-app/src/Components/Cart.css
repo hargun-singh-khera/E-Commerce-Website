@@ -30,7 +30,7 @@
 
 .btn-proceed-to-buy {
     border-radius: 3rem;
-    padding: 5px 34px;
+    padding: 5px 64px;
     color: black;
     margin: 10px 150px;
     background-color: orange;
@@ -60,4 +60,14 @@
 }
 #cart-deselect-item:hover {
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 450px)
+{
+    .btn-proceed-to-buy {
+        border-radius: 0.5rem;
+        margin: 30px 0px;
+        padding: 13px 0px;
+        width: 100%;
+    }
 }

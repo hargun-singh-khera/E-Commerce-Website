@@ -13,7 +13,7 @@ export default function Wishlist() {
                     <a href="/#" id="cart-deselect-item">Empty Wishlist</a>
                     <hr />
                 </div>
-                <div className="card mb-3">
+                <div className="card mb-3 border-0">
                     <div className="row g-0">
                         <div className="col-md-4">
                             <img src="https://i.ibb.co/Kj7m7HS/71r7g8c-Gq4-L-SY741-SX-UX-SY-UY.jpg" className="img-fluid rounded-start"
@@ -31,7 +31,7 @@ export default function Wishlist() {
                                     </div>
                                 <h6>
                                     Size: <span id="product-size"> XL &nbsp;|&nbsp; </span>
-                                    Colour: <span id="product-colour"> Yellow  </span>
+                                    Colour: <span id="product-colour"> Blue  </span>
                                 </h6>
                                 <h6 id="price">
                                     Price: <span id="product-price">&#8377; 657.00</span>
@@ -43,7 +43,7 @@ export default function Wishlist() {
                     </div>
                 </div>
                 <hr id="lasthr" />
-                <div className="card mb-3">
+                <div className="card mb-3 border-0">
                     <div className="row g-0">
                         <div className="col-md-4">
                             <img src="https://i.ibb.co/Kj7m7HS/71r7g8c-Gq4-L-SY741-SX-UX-SY-UY.jpg" className="img-fluid rounded-start"
@@ -61,7 +61,7 @@ export default function Wishlist() {
                                 </div>
                                 <h6>
                                     Size: <span id="product-size"> XL &nbsp;|&nbsp; </span>
-                                    Colour: <span id="product-colour"> Yellow  </span>
+                                    Colour: <span id="product-colour"> Blue  </span>
                                 </h6>
                                 <h6 id="price">
                                     Price: <span id="product-price">&#8377; 657.00</span>
