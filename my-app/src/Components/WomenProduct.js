@@ -86,9 +86,11 @@ class ProductItem extends Component {
                                         </ul>
                                     </div>
                                 </div>
-                                <button type="button" className="btn btn-primary btn-sm btn-add-to-card">Add to Cart</button>
-                                <button type="button" className="btn btn-primary btn-sm btn-buy-now">Buy Now</button>
-                                <button type="button" className="btn btn-primary btn-sm btn-add-to-wishlist">Add to Wishlist</button>
+                                <div className="btn-container">
+                                    <button type="button" className="btn btn-primary btn-sm btn-add-to-card">Add to Cart</button>
+                                    <button type="button" className="btn btn-primary btn-sm btn-buy-now">Buy Now</button>
+                                    <button type="button" className="btn btn-primary btn-sm btn-add-to-wishlist">Add to Wishlist</button>
+                                </div>
                             </div>
                         </div>
                     </div>

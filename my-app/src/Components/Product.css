@@ -74,7 +74,7 @@
     padding-right: 40px;
 }
 
-.btn-add-to-card2 {
+.btn-add-to-card {
     border-radius: 3rem;
     padding: 5px 64px;
     color: black;
@@ -112,7 +112,7 @@
         margin-left: 15px;
         margin-right: 16px;
     }
-    .btn-add-to-card2 {
+    .btn-add-to-card {
         border-radius: 0.5rem;
         margin: 5px 0px;
         padding: 13px 0px;
