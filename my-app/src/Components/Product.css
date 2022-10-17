@@ -114,22 +114,22 @@
     .btn-add-to-card2 {
         border-radius: 0.5rem;
         margin: 5px 0px;
-        padding: 9px 0px;
+        padding: 13px 0px;
         width: 100%;
     }
 
     .btn-buy-now {
         border-radius: 0.5rem;
         margin: 5px 0px;
-        padding: 9px 0px;
+        padding: 13px 0px;
         width: 100%;
 
     }
 
     .btn-add-to-wishlist {
         border-radius: 0.5rem;
-        margin: 5px 0px;
-        padding: 9px 0px;
+        margin: 5px 0px 40px;
+        padding: 13px 0px;
         width: 100%;
     }
 }
