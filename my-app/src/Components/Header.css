@@ -69,7 +69,6 @@
 
 .d-flex.d-flex-form {
     margin-top: 2px;
-    /* margin-right: 35px; */
 }
 
 .d-flex.d-flex-form .btn.btn-outline-success{
@@ -80,7 +79,6 @@
 
 .d-flex .me-2 {
     display: inline-block;
-    /* margin-left: 10px; */
     height: 35px;
     font-size: 14px;
     line-height: 24px;

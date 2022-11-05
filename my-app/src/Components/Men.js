@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './Men.css';
 import Items from './Items';
 import MenCarousel from './MenCarousel';
-import MenProduct from './MenProduct';
 // import JSON from './API/products.json';
 import Filter from './Filter';
 

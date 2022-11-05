@@ -3,7 +3,7 @@ import './Items.css';
 import { Link } from 'react-router-dom';
 import Rating from './Rating';
 
-const Product = (props,url) => {
+const Product = (props) => {
     const renderProduct = ({ productData }) => {
         if (productData) {
             return productData.map((item) => {

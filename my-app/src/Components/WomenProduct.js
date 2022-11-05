@@ -15,8 +15,6 @@ class ProductItem extends Component {
         const { product } = this.state;
         return (
             <>
-
-                {/* {this.renderProduct(this.state.product)} */}
                 <div className="product-details-container-2">
                     <div className="card mb-3">
                         <div className="row g-0">

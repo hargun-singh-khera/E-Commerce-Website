@@ -16,11 +16,13 @@
     border: none;
 }
 .carousel-shop-now:hover {
-    background-color: rgb(47, 251, 11)
+    background-color: rgb(47, 251, 11);
 }
+
 .carousel-caption {
     margin-bottom: 13rem;
 }
+
 .bi {
     margin-left: 10px;
     margin-right: 10px;
@@ -44,53 +46,7 @@
         padding: 14px 70px;
     }
 }
-/* @media only screen and (max-width: 976px){
-	Big smartphones [426px -> 641px]
-    .carousel-inner h2 {
-        letter-spacing: 1.5rem;
-        line-height: 2.0rem;
-        font-weight: 700;
-        font-size: 20px;
-    }
-    .carousel-caption {
-        margin-bottom: 6rem;
-    }
-    .carousel-shop-now{
-        padding: 12px 60px;
-        font-size: 15px;
-    }
-} */
-/* @media only screen and (max-width: 874px){
-	Big smartphones [426px -> 641px]
-    .carousel-inner h2 {
-        letter-spacing: 1.0rem;
-        line-height: 2.0rem;
-        font-weight: 700;
-        font-size: 20px;
-    }
-    .carousel-caption {
-        margin-bottom: 2rem;
-    }
-    .carousel-shop-now{
-        padding: 12px 60px;
-        font-size: 15px;
-    }
-} */
-/* @media only screen and (max-width: 625px){
-	Big smartphones [426px -> 641px]
-    .carousel-inner h2 {
-        letter-spacing: 1.0rem;
-        font-weight: 700;
-        font-size: 15px;
-    }
-    .carousel-caption {
-        margin-bottom: -1rem;
-    }
-    .carousel-shop-now{
-        padding: 12px 60px;
-        font-size: 8px;
-    }
-} */
+
 @media only screen and (max-width: 641px){
 	/*Big smartphones [426px -> 641px]*/
     .carousel-inner h2 {
@@ -106,6 +62,7 @@
         font-size: 15px;
     }
 }
+
 @media only screen and (max-width: 542px){
 	/*Minimise mode on laptop [450px -> 425px]*/
     .carousel-inner h2 {
@@ -124,6 +81,7 @@
         margin-bottom: 45px;
     }
 }
+
 @media only screen and (max-width: 450px){
 	/*Small smartphones [325px -> 425px]*/
     .carousel-inner h2 {

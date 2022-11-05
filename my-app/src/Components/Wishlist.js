@@ -1,8 +1,6 @@
 import React from 'react'
 import './Wishlist.css';
 import './Product.css';
-import Rating from './Rating';
-
 
 export default function Wishlist() {
     return (
