@@ -9,10 +9,6 @@
     text-align: right;
 }
 
-/* .bi {
-    padding-left: 100px;
-} */
-
 .shopping-cart-items {
     background-color: yellow;
 }
@@ -40,24 +36,30 @@
 #price {
     margin-top: 10px;
 }
+
 #lasthr {
     margin-top: -1px;
 }
+
 #colour {
     margin-top: 10px;
     margin-bottom: -1px;
     font-size: 14px;
 }
+
 #size {
     margin-bottom: 20px;
     font-size: 14px;
 }
+
 #product-colour, #product-size {
     font-weight: normal;
 }
+
 #cart-deselect-item {
     color: red;
 }
+
 #cart-deselect-item:hover {
     text-decoration: underline;
 }

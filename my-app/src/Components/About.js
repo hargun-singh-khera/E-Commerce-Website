@@ -11,8 +11,6 @@ export default function About() {
                     <div className="col-md-7">
                         <h1 className="featurette-heading">About Us</h1>
                         <p className="lead">
-                            {/* Online wholesale maketplace for fashion professional actors and deci-sion makers. A wide
-                            range of women and men garments. */}
                             Our Mission is to make a difference through our branding by staying ahead of the fashion trends, defining style and giving customers what they want.
                             <br />
                             MyHosieryShop's Store is here to serve you and make sure you find the Perfect Look for every occasion. 

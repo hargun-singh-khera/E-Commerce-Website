@@ -4,10 +4,8 @@
 
 .filters-container {
     display: inline-block;
-    /* width: 20%; */
     height: 100%;
     width: 305px;
-    /* background-color: red; */
     border: 1px solid;
     height: 10%; 
     padding-left: 30px;

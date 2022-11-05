@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Rating from './Rating';
 import axios from 'axios';
-import product from './Product2';
 
 const productUrl = "https://restapipractice2.herokuapp.com/products/women";
 
@@ -34,8 +33,6 @@ class ProductItem extends Component {
                                     <h6 id="price">Price: <span id="product-price">&#8377; {product.price}</span></h6>
                                     <p>Inclusive of all Taxes</p>
                                     <h6>Colour:
-                                    {/* <span id="product-colour">{product.colour.colour}</span> */}
-                                        {/* <span id="product-colour">{product.colour?.colour}</span> */}
                                         {/* {product.colour?.map((item) => {
                                             return (
                                                 <>

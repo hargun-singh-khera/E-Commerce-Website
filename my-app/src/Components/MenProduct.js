@@ -15,8 +15,6 @@ class ProductItem extends Component {
         const { product } = this.state;
         return (
             <>
-
-                {/* {this.renderProduct(this.state.product)} */}
                 <div className="product-details-container-2">
                     <div className="card mb-3 ">
                         <div className="row g-0">
@@ -33,7 +31,6 @@ class ProductItem extends Component {
                                     <h6 id="price">Price: <span id="product-price">&#8377; {product.price}</span></h6>
                                     <p>Inclusive of all Taxes</p>
                                     <h6>Colour:
-                                    {/* <span id="product-colour">{product.colour.colour}</span> */}
                                         <span id="product-colour">{product.colour?.colour}</span>
                                         {/* {product.colour?.map((item) => {
                                             return (

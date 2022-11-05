@@ -58,12 +58,6 @@ export default function Footer() {
             </section>
             <hr className="featurette-divider" />
 
-            {/* Adding Footer */}
-            {/* <footer className="container container-footer">
-                    <p className="float-end"><a href="/#">Back to top</a></p>
-                    <p>&copy; 2022-2023 MyHosieryShop.com . All Rights Reserved &middot; <Link to="">Privacy</Link> &middot; <Link to="">Terms</Link></p>
-                    <p className="ewl">Engineered with  <i className="fas fa-heart">&nbsp;</i>by Hargun Singh Khera</p>
-                </footer> */}
             <div class="container">
                 <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5">
                     <div class="col mb-3">
@@ -110,9 +104,6 @@ export default function Footer() {
                         </ul>
                     </div>
                     <ul class="list-unstyled d-flex">
-                        {/* <li class="ms-3"><a class="link-dark" href="/#"><svg class="bi" width="24" height="24"><use xlinkHref="#twitter"></use></svg></a></li>
-                                <li class="ms-3"><a class="link-dark" href="/#"><svg class="bi" width="24" height="24"><use xlinkHref="#instagram"></use></svg></a></li>
-                                <li class="ms-3"><a class="link-dark" href="/#"><svg class="bi" width="24" height="24"><use xlinkHref="#facebook"></use></svg></a></li> */}
                         <li className="ms-3"><a class="link-dark" href="/#"><i class="fab fa-facebook-f" style={{ fontSize: "25px" }}></i></a></li>
                         <li className="ms-3"><a class="link-dark" href="/#"><i class="fab fa-linkedin-in" style={{ fontSize: "25px" }}></i></a></li>
                         <li className="ms-3"><a class="link-dark" href="/#"><i class="fab fa-instagram" style={{ fontSize: "25px" }}></i></a></li>

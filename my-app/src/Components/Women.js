@@ -20,7 +20,6 @@ class Women extends Component {
     return (
       <>
         <WomenCarousel />
-        {/* <Filter/> */}
         <div className="filters-with-clothes-container">
           <Filter />
           <div className="garments-collection-container">

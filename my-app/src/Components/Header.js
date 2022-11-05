@@ -1,13 +1,8 @@
 import React, { Component } from 'react';
-// import * as Icon from 'react-bootstrap-icons';
 import { Link } from "react-router-dom";
 import './Header.css';
 
 class Header extends Component {
-    // handleChange = (event) => {
-    //     // console.log(event.target.value);
-    //     this.props.userInput(event.target.value);
-    // }
     render() {
         return (
             <>
@@ -79,22 +74,8 @@ class Header extends Component {
                             </ul>
                             <form className="d-flex d-flex-form">
                                 <input className="form-control me-2" type="search" placeholder="  Search for products" aria-label="Search" />
-                                {/* <input className="form-control me-2" type="search" placeholder="  Search for products" aria-label="Search" onChange={this.handleChange} /> */}
                                 <button className="btn btn-outline-success" type="submit">Search</button>
                             </form>
-
-                            {/* <div className="flex-shrink-0 dropdown">
-                                <a href="/#" className="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" className="rounded-circle"/>
-                                </a>
-                                <ul className="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
-                                    <li><a className="dropdown-item" href="/#" data-bs-toggle="modal" data-bs-target="#loginModalToggle"> Login / SignUp </a></li>
-                                    <li><a className="dropdown-item" href="/#">Profile</a></li>
-                                    <li><a className="dropdown-item" href="/#">Your Orders</a></li>
-                                    <li><hr className="dropdown-divider"/></li>
-                                    <li><a className="dropdown-item" href="/#">Sign out</a></li>
-                                </ul>
-                            </div> */}
 
                                 <div className="sub-container-icon-nav" data-bs-toggle="modal" data-bs-target="#loginModalToggle">
                                     <i className="bi bi-person" style={{ fontSize: "1.3rem" }}></i>
@@ -112,18 +93,6 @@ class Header extends Component {
                                         <p>Cart</p>
                                     </Link>
                                 </div>
-                            {/* <div className="dropdown text-end">
-                                <a href="/#" className="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" className="rounded-circle" />
-                                </a>
-                                <ul className="dropdown-menu text-small" aria-labelledby="dropdownUser1">
-                                    <li><a className="dropdown-item" href="/#">New project...</a></li>
-                                    <li><a className="dropdown-item" href="/#">Settings</a></li>
-                                    <li><a className="dropdown-item" href="/#">Profile</a></li>
-                                    <li><hr className="dropdown-divider" /></li>
-                                    <li><a className="dropdown-item" href="/#">Sign out</a></li>
-                                </ul>
-                            </div> */}
                         </div>
                     </div>
                 </nav>

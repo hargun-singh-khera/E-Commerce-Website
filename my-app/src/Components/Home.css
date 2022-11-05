@@ -8,24 +8,28 @@
     border: none;
 }
 
-
 .card.men-women {
     display: inline-block;
     border: none;
 }
+
 .card-img-top {
     cursor: default;
 }
+
 #Women-Men .card-group .card .card-img-top:hover {
     transform:scale(1.0010);
 }
+
 .card-title {
     text-align: center;
 }
+
 .card-title a {
     color: orange;
     text-decoration: none;
 }
+
 .sbe-text {
     text-align: center;
     font-size: 2.5rem;
