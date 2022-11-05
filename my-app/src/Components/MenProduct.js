@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Rating from './Rating';
 import axios from 'axios';
 
-const productUrl = "https://restapipractice2.herokuapp.com/men";
+const productUrl = "https://restapipractice2.herokuapp.com/products/men";
 
 class ProductItem extends Component {
     constructor(props) {

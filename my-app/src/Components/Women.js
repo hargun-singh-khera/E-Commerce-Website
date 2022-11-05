@@ -6,7 +6,7 @@ import WomenCarousel from './WomenCarousel';
 import Filter from './Filter';
 
 
-const productUrl = "https://restapipractice2.herokuapp.com/women";
+const productUrl = "https://restapipractice2.herokuapp.com/products/women";
 
 
 class Women extends Component {

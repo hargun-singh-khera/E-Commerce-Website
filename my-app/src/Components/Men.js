@@ -7,7 +7,7 @@ import MenProduct from './MenProduct';
 import Filter from './Filter';
 
 
-const productUrl = "https://restapipractice2.herokuapp.com/men";
+const productUrl = "https://restapipractice2.herokuapp.com/products/men";
 
 
 class Men extends Component {
