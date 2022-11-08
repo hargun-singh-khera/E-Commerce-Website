@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Men.css';
 // import JSON from './API/products.json';
-import Items from './Items';
+import Items from './Product';
 import WomenCarousel from './WomenCarousel';
 import Filter from './Filter';
 

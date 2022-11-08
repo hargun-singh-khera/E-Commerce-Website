@@ -1,5 +1,5 @@
 import React from 'react';
-import './Items.css';
+import './Product.css';
 import { Link } from 'react-router-dom';
 import Rating from './Rating';
 

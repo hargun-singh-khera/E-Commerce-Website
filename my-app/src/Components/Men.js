@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Men.css';
-import Items from './Items';
+import Items from './Product';
 import MenCarousel from './MenCarousel';
 // import JSON from './API/products.json';
 import Filter from './Filter';
