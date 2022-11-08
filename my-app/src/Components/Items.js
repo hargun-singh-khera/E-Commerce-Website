@@ -22,7 +22,7 @@ const Product = (props) => {
                                                 </div>
                                                 <h3 id="product-price" style={{color: "#e00b0b",  marginTop: "15px", marginBottom: "0px"}} >&#8377; {item.price}</h3>
                                                 <h5>
-                                                    <span style={{fontSize: "16px",color: item.availablility === "In Stock" ? "Green" : "Red" }}>{item.availablility}</span>
+                                                    <span style={{fontSize: "16px",color: item.availability === "In Stock" ? "Green" : "Red" }}>{item.availability}</span>
                                                 </h5>
                                             </div>
                                         </div>
