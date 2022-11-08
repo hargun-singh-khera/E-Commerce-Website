@@ -25,7 +25,7 @@ class Women extends Component {
           <div className="garments-collection-container">
             <div className="card-group card-image-container">
               <div className="container my-3">
-                <Items productData={this.state.product} />
+                <Items productData={this.state.product}/>
               </div>
             </div>
           </div>

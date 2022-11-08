@@ -9,7 +9,7 @@ const Product = (props) => {
             return productData.map((item) => {
                 return (
                     <>
-                        <div className="col-md-3" key={item.product_id}>
+                        <div className="col-md-3">
                             <div className="my-3">
                                 <div className="card-group">
                                     <Link id="link" to={`${item.department.toLowerCase()}/${item.product_id}`} onClick={()=>{window.scrollTo({top: 0, left: 0, behavior: 'smooth'});}}>
