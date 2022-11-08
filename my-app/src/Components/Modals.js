@@ -112,11 +112,11 @@ export default function Modals() {
                                     <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
                                 </div>
                                 <label htmlFor="exampleFormControlInput1" className="form-label">Please select your Query</label>
-                                <select value="" className="form-select" aria-label="Default select example">
-                                    <option selected>Open this select menu</option>
-                                    <option value="1">Product quality was not good.</option>
-                                    <option value="2">Wrong product sended.</option>
-                                    <option value="3">Delivery not done on time.</option>
+                                <select defaultValue="" className="form-select" aria-label="Default select example">
+                                    <option defaultValue>Open this select menu</option>
+                                    <option defaultValue="1">Product quality was not good.</option>
+                                    <option defaultValue="2">Wrong product sended.</option>
+                                    <option defaultValue="3">Delivery not done on time.</option>
                                 </select>
                                 <div className="mb-3">
 

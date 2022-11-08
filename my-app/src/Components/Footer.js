@@ -58,56 +58,56 @@ export default function Footer() {
             </section>
             <hr className="featurette-divider" />
 
-            <div class="container">
-                <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5">
-                    <div class="col mb-3">
-                        <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+            <div className="container">
+                <footer className="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5">
+                    <div className="col mb-3">
+                        <a href="/" className="d-flex align-items-center mb-3 link-dark text-decoration-none">
                             <img src="https://i.ibb.co/Rpmngys/logo3-removebg-preview.png" alt="" width="250px" />
                         </a>
-                        <p class="text-muted">&copy; 2022-2023 MyHosieryShop.com. All Rights Reserved</p>
+                        <p className="text-muted">&copy; 2022-2023 MyHosieryShop.com. All Rights Reserved</p>
                     </div>
 
-                    <div class="col mb-3">
+                    <div className="col mb-3">
 
                     </div>
 
-                    <div class="col mb-3">
+                    <div className="col mb-3">
                         <h5>INFORMATION</h5>
-                        <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#About" class="nav-link p-0 text-muted">About Us</a></li>
-                            <li class="nav-item mb-2"><a href="/#" class="nav-link p-0 text-muted">Customer Service</a></li>
-                            <li class="nav-item mb-2"><a href="/#" class="nav-link p-0 text-muted">Privacy</a></li>
-                            <li class="nav-item mb-2" data-bs-toggle="modal" data-bs-target="#contactModal"><a className="nav-link p-0 text-muted contact-modal" aria-current="page" href="#contact">Contact Us</a></li>
-                            <li class="nav-item mb-2"><a href="/#" class="nav-link p-0 text-muted">Orders & Returns</a></li>
+                        <ul className="nav flex-column">
+                            <li className="nav-item mb-2"><a href="#About" className="nav-link p-0 text-muted">About Us</a></li>
+                            <li className="nav-item mb-2"><a href="/#" className="nav-link p-0 text-muted">Customer Service</a></li>
+                            <li className="nav-item mb-2"><a href="/#" className="nav-link p-0 text-muted">Privacy</a></li>
+                            <li className="nav-item mb-2" data-bs-toggle="modal" data-bs-target="#contactModal"><a className="nav-link p-0 text-muted contact-modal" aria-current="page" href="#contact">Contact Us</a></li>
+                            <li className="nav-item mb-2"><a href="/#" className="nav-link p-0 text-muted">Orders & Returns</a></li>
                         </ul>
                     </div>
 
-                    <div class="col mb-3">
+                    <div className="col mb-3">
                         <h5>WHY BUY FROM US</h5>
-                        <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="/#" class="nav-link p-0 text-muted">Shipping & Returns</a></li>
-                            <li class="nav-item mb-2"><a href="/#" class="nav-link p-0 text-muted">Secure Shopping</a></li>
-                            <li class="nav-item mb-2"><a href="/#" class="nav-link p-0 text-muted">Affiliates</a></li>
-                            <li class="nav-item mb-2"><a href="/#" class="nav-link p-0 text-muted">Group Sales</a></li>
-                            <li class="nav-item mb-2"><a href="/#" class="nav-link p-0 text-muted">FAQs</a></li>
+                        <ul className="nav flex-column">
+                            <li className="nav-item mb-2"><a href="/#" className="nav-link p-0 text-muted">Shipping & Returns</a></li>
+                            <li className="nav-item mb-2"><a href="/#" className="nav-link p-0 text-muted">Secure Shopping</a></li>
+                            <li className="nav-item mb-2"><a href="/#" className="nav-link p-0 text-muted">Affiliates</a></li>
+                            <li className="nav-item mb-2"><a href="/#" className="nav-link p-0 text-muted">Group Sales</a></li>
+                            <li className="nav-item mb-2"><a href="/#" className="nav-link p-0 text-muted">FAQs</a></li>
                         </ul>
                     </div>
 
-                    <div class="col mb-3">
+                    <div className="col mb-3">
                         <h5>MY ACCOUNT</h5>
-                        <ul class="nav flex-column">
-                            <li class="nav-item mb-2" data-bs-toggle="modal" data-bs-target="#loginModalToggle"><a href="#login" class="nav-link p-0 text-muted">Sign In</a></li>
-                            <li class="nav-item mb-2"><Link to="/cart" onClick={()=>{window.scrollTo({top: 0, left: 0, behavior: 'smooth'});}} id="cart-logo" class="nav-link p-0 text-muted">View Cart</Link></li>
-                            <li class="nav-item mb-2"><Link to="/wishlist" onClick={()=>{window.scrollTo({top: 0, left: 0, behavior: 'smooth'});}} id="cart-logo" class="nav-link p-0 text-muted"> Wishlist</Link></li>
-                            <li class="nav-item mb-2"><a href="/#" class="nav-link p-0 text-muted">Track My Order</a></li>
-                            <li class="nav-item mb-2"><a href="/#" class="nav-link p-0 text-muted">Help</a></li>
+                        <ul className="nav flex-column">
+                            <li className="nav-item mb-2" data-bs-toggle="modal" data-bs-target="#loginModalToggle"><a href="#login" className="nav-link p-0 text-muted">Sign In</a></li>
+                            <li className="nav-item mb-2"><Link to="/cart" onClick={()=>{window.scrollTo({top: 0, left: 0, behavior: 'smooth'});}} id="cart-logo" className="nav-link p-0 text-muted">View Cart</Link></li>
+                            <li className="nav-item mb-2"><Link to="/wishlist" onClick={()=>{window.scrollTo({top: 0, left: 0, behavior: 'smooth'});}} id="cart-logo" className="nav-link p-0 text-muted"> Wishlist</Link></li>
+                            <li className="nav-item mb-2"><a href="/#" className="nav-link p-0 text-muted">Track My Order</a></li>
+                            <li className="nav-item mb-2"><a href="/#" className="nav-link p-0 text-muted">Help</a></li>
                         </ul>
                     </div>
-                    <ul class="list-unstyled d-flex">
-                        <li className="ms-3"><a class="link-dark" href="/#"><i class="fab fa-facebook-f" style={{ fontSize: "25px" }}></i></a></li>
-                        <li className="ms-3"><a class="link-dark" href="/#"><i class="fab fa-linkedin-in" style={{ fontSize: "25px" }}></i></a></li>
-                        <li className="ms-3"><a class="link-dark" href="/#"><i class="fab fa-instagram" style={{ fontSize: "25px" }}></i></a></li>
-                        <li className="ms-3"><a class="link-dark" href="/#"><i class="fab fa-twitter" style={{ fontSize: "25px" }}></i></a></li>
+                    <ul className="list-unstyled d-flex">
+                        <li className="ms-3"><a className="link-dark" href="/#"><i className="fab fa-facebook-f" style={{ fontSize: "25px" }}></i></a></li>
+                        <li className="ms-3"><a className="link-dark" href="/#"><i className="fab fa-linkedin-in" style={{ fontSize: "25px" }}></i></a></li>
+                        <li className="ms-3"><a className="link-dark" href="/#"><i className="fab fa-instagram" style={{ fontSize: "25px" }}></i></a></li>
+                        <li className="ms-3"><a className="link-dark" href="/#"><i className="fab fa-twitter" style={{ fontSize: "25px" }}></i></a></li>
                     </ul>
                 </footer>
                 <p className="ewl">Engineered with  <i className="fas fa-heart">&nbsp;</i>by Hargun Singh Khera</p>
