@@ -6,7 +6,7 @@ import MenCarousel from './MenCarousel';
 import Filter from './Filter';
 
 
-const productUrl = "https://restapipractice2.herokuapp.com/products/men";
+const productUrl = "https://fashionwebsiteapi.onrender.com/products/men";
 
 
 class Men extends Component {

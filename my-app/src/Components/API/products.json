@@ -3,9 +3,9 @@
         "product_id": 1,
         "title": "Dennis Lingo Men's Checkered Slim fit Casual Shirt",
         "age_group": "adult",
-        "department": "Men",
+        "department": "men",
         "availablility": "In Stock",
-        "rating": 3,
+        "rating": 5,
         "unrating": 2,
         "category": "TopWear",
         "sub-category": "Dresses",
@@ -58,7 +58,7 @@
         "product_id": 2,
         "title": "WINTAGE Men's Polyester Solid Smart Casual Office Blazer",
         "age_group": "adult",
-        "department": "Men",
+        "department": "men",
         "availablility": "In Stock",
         "rating": 4,
         "category": "TopWear",
@@ -113,7 +113,7 @@
         "product_id": 3,
         "title": "Forest Club Solid's Mens Jacket",
         "age_group": "adult",
-        "department": "Men",
+        "department": "men",
         "availablility": "In Stock",
         "rating": 4,
         "category": "TopWear",
@@ -271,7 +271,7 @@
         "product_id": 6,
         "title": "MANQ Men's Slim Fit Formal Shirt",
         "age_group": "adult",
-        "department": "Men",
+        "department": "men",
         "availablility": "In Stock",
         "rating": 4,
         "category": "TopWear",
@@ -335,7 +335,7 @@
         "product_id": 7,
         "title": "Men's Lycra-Cotton Slim Fit Designer Coat",
         "age_group": "adult",
-        "department": "Men",
+        "department": "men",
         "availablility": "In Stock",
         "rating": 4,
         "category": "TopWear",
@@ -391,15 +391,12 @@
             "Modern Slim Fit ( We Have Updated Our Size Chart, Please Refer The Size Chart For New Measurements Before Ordering)",
             "Sleeve Type: Long Sleeve; Collar Style: Classic Collar"
         ]        
-    }
-]
-
-[
+    },
     {
-        "product_id": 1,
+        "product_id": 8,
         "title": "ONLY Women's Regular T-Shirt",
         "age_group": "adult",
-        "department": "Women",
+        "department": "women",
         "availablility": "In Stock",
         "rating": 4,
         "category": "TopWear",
@@ -446,10 +443,10 @@
         ]        
     },
     {
-        "product_id": 2,
+        "product_id": 9,
         "title": "Womens and Girls Solid Cotton Shirt Dress",
         "age_group": "adult",
-        "department": "Women",
+        "department": "women",
         "availablility": "Out of Stock",
         "rating": 4,
         "category": "TopWear",
@@ -493,10 +490,10 @@
         ]        
     },
     {
-        "product_id": 3,
+        "product_id": 10,
         "title": "RARE Women's Regular fit Top",
         "age_group": "adult",
-        "department": "Women",
+        "department": "women",
         "availablility": "Out of Stock",
         "rating": 4,
         "category": "TopWear",
@@ -538,10 +535,10 @@
         ]        
     },
     {
-        "product_id": 4,
+        "product_id": 11,
         "title": "AKA CHIC Women's Flared Jeans",
         "age_group": "adult",
-        "department": "Women",
+        "department": "women",
         "availablility": "In Stock",
         "rating": 4,
         "category": "BottomWear",
@@ -585,10 +582,10 @@
         ]        
     },
     {
-        "product_id": 5,
+        "product_id": 12,
         "title": "DIMPY GARMENTS Solid Regular Denim Jacket",
         "age_group": "adult",
-        "department": "Women",
+        "department": "women",
         "availablility": "In Stock",
         "rating": 4,
         "category": "BottomWear",
@@ -631,4 +628,3 @@
         ]        
     }
 ]
-
