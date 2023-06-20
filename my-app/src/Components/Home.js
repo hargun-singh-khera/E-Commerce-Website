@@ -2,12 +2,18 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import Carousel from './Carousel';
 import About from './About';
+
 import './Home.css';
+import Spinner from './Spinner';
 
 
 export default function Home() {
-    return (
-        <>
+  const updateProgress=()=> {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'})
+  }
+  
+  return (
+      <>
             {/* Adding dissmissable discount alert */}
             <div className="alert alert-info alert-dismissible fade show price-alert" role="alert">
                 <i className="bi bi-megaphone-fill"></i>Get upto flat <strong className="strong-1">50% Off</strong> on your first purchase.
@@ -22,7 +28,7 @@ export default function Home() {
 
             {/* Used div for aligning the shop now button in the center */}
             <div className="text-center">
-                <a href="#Women-Men"><button type="button" className="btn btn-primary sbe-shop-now">Shop Now</button></a>
+                <a href="#Women-Men"><button type="button" className="btn btn-primary sbe-shop-now" onClick={updateProgress}>Shop Now</button></a>
             </div>
 
             {/* Section for men and women starts here */}
@@ -32,19 +38,19 @@ export default function Home() {
                 <div className="card-group">
                     {/* Added on user click routing which will load the womens section when clicked on image or text with scroll to top effect*/}
                     <div className="card men-women">
-                        <Link to="/women" onClick={()=>{window.scrollTo({top: 0, left: 0, behavior: 'smooth'});}}><img src="https://i.ibb.co/c1zjMbR/a9ff3b-3be32fd5866944a0b2bd867c8e0dbaf9.jpg" className="card-img-top" alt="..."
+                        <Link to="/women" onClick={updateProgress}><img src="https://i.ibb.co/c1zjMbR/a9ff3b-3be32fd5866944a0b2bd867c8e0dbaf9.jpg" className="card-img-top" alt="..."
                             width="100" /></Link>
                         <div className="card-body">
-                            <h5 className="card-title"><Link to="/women" onClick={()=>{window.scrollTo({top: 0, left: 0, behavior: 'smooth'});}}>Shop Women &gt;</Link></h5>
+                            <h5 className="card-title"><Link to="/women" onClick={updateProgress}>Shop Women &gt;</Link></h5>
                         </div>
                     </div>
 
                     {/* Added on user click routing which will load the mens section when clicked on image or text with scroll to top effect*/}
                     <div className="card men-women">
-                        <Link to="/men" onClick={()=>{window.scrollTo({top: 0, left: 0, behavior: 'smooth'});}}><img src="https://i.ibb.co/KqTWnXQ/821f4f8cf3ab9cfd4f179e010f09eb27c4e5ca89-home-banner-2-2.jpg"
+                        <Link to="/men" onClick={updateProgress}><img src="https://i.ibb.co/KqTWnXQ/821f4f8cf3ab9cfd4f179e010f09eb27c4e5ca89-home-banner-2-2.jpg"
                             className="card-img-top" alt="..." width="100" /></Link>
                         <div className="card-body">
-                            <h5 className="card-title"><Link to="/men" onClick={()=>{window.scrollTo({top: 0, left: 0, behavior: 'smooth'});}}>Shop Men &gt;</Link></h5>
+                            <h5 className="card-title"><Link to="/men" onClick={updateProgress}>Shop Men &gt;</Link></h5>
                         </div>
                     </div>
                 </div>

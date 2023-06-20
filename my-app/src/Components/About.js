@@ -9,7 +9,7 @@ export default function About() {
 
                 <div className="row featurette">
                     <div className="col-md-7">
-                        <h1 className="featurette-heading">About Us</h1>
+                        <h1 className="featurette-heading mt-2">About Us</h1>
                         <p className="lead">
                             Our Mission is to make a difference through our branding by staying ahead of the fashion trends, defining style and giving customers what they want.
                             <br />
@@ -21,12 +21,13 @@ export default function About() {
                         </p>
                         <a href="#Women-Men"><button type="button" className="btn btn-primary abt-buy-now">Buy Now &gt;</button></a>
                     </div>
-                    <div className="col-md-5">
+                    <div className="col-md-5 mt-5">
                         <img src="https://i.ibb.co/M6qXdLX/About-Us-1071x492-2.png" alt="" width="100%" />
                     </div>
                 </div>
                 {/* END THE FEATURETTES */}
             </div>
+            <div className='space'></div>
         </>
     )
 }

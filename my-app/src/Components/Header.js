@@ -73,8 +73,8 @@ class Header extends Component {
                                 </li>
                             </ul>
                             <form className="d-flex d-flex-form">
-                                <input className="form-control me-2" type="search" placeholder="  Search for products" aria-label="Search" />
-                                <button className="btn btn-outline-success" type="submit">Search</button>
+                                <button type="submit" id='search-icon'></button>
+                                <input className="form-control me-2" type="search" placeholder="Search for products" aria-label="Search" />
                             </form>
 
                                 <div className="sub-container-icon-nav" data-bs-toggle="modal" data-bs-target="#loginModalToggle">

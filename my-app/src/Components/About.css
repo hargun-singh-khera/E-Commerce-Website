@@ -1,13 +1,12 @@
 .abt-buy-now {
     border-radius: 2.75rem;
     padding: 10px 34px;
-    margin-bottom: 35px;
     color: black;
     background-color: rgb(255 2 2 / 68%);
     border: none;
 }
 .make-casual-unique {
-    color: rgb(230, 113, 10);
+    color: rgb(255 2 2 / 68%);
     font-weight: bold;
     font-size: 3rem;
 }
@@ -17,4 +16,15 @@
 .icon-container {
     margin-left: 30px;
     margin-right: 30px;
+}
+
+
+.container.marketing{
+    border-left: 6px rgb(255 2 2 / 68%) solid;
+    background: rgba(248, 117, 3, 0.036);
+    padding-left: 35px;
+}
+
+.space {
+    margin-bottom: 65px;
 }
