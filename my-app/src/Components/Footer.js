@@ -1,13 +1,14 @@
 import React from 'react'
 import './Footer.css';
 import { Link } from 'react-router-dom';
+import BackToTop from './BackToTop';
 
 export default function Footer() {
     return (
         <>
             {/* Adding Website Features */}
             <hr className="featurette-divider" />
-            <section id="About">
+            {/* <section id="About"> */}
                 <div className="fluid-container icon-container" id="icon-grid">
                     <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
                         <div className="col d-flex align-items-start">
@@ -55,62 +56,66 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-            </section>
-            <hr className="featurette-divider" />
+            {/* </section> */}
+            {/* <BackToTop /> */}
+            <hr className="featurette-divider" style={{marginBottom:'15px'}}/>
 
-            <div className="container">
-                <footer className="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5">
-                    <div className="col mb-3">
-                        <a href="/" className="d-flex align-items-center mb-3 link-dark text-decoration-none">
-                            <img src="https://i.ibb.co/Rpmngys/logo3-removebg-preview.png" alt="" width="250px" />
-                        </a>
-                        <p className="text-muted">&copy; 2022-2023 MyHosieryShop.com. All Rights Reserved</p>
-                    </div>
+            <div className="footer">
+                <div className='container'>
+                    <footer className="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5">
+                        <div className="col mb-3">
+                            <a href="/" className="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                                <img src="https://i.ibb.co/3hMcwNz/myhosieryshop-logo.png" alt="" width="250px" />
+                            </a>
+                            <p>&copy; 2022-2023 MyHosieryShop.com. All Rights Reserved</p>
+                        </div>
 
-                    <div className="col mb-3">
+                        <div className="col mb-3">
 
-                    </div>
+                        </div>
 
-                    <div className="col mb-3">
-                        <h5>INFORMATION</h5>
-                        <ul className="nav flex-column">
-                            <li className="nav-item mb-2"><a href="#About" className="nav-link p-0 text-muted">About Us</a></li>
-                            <li className="nav-item mb-2"><a href="/#" className="nav-link p-0 text-muted">Customer Service</a></li>
-                            <li className="nav-item mb-2"><a href="/#" className="nav-link p-0 text-muted">Privacy</a></li>
-                            <li className="nav-item mb-2" data-bs-toggle="modal" data-bs-target="#contactModal"><a className="nav-link p-0 text-muted contact-modal" aria-current="page" href="#contact">Contact Us</a></li>
-                            <li className="nav-item mb-2"><a href="/#" className="nav-link p-0 text-muted">Orders & Returns</a></li>
+                        <div className="col mb-3">
+                            <h5>INFORMATION</h5>
+                            <ul className="nav flex-column">
+                                <li className="nav-item mb-2"><a href="#About" className="nav-link p-0">About Us</a></li>
+                                <li className="nav-item mb-2"><a href="/#" className="nav-link p-0">Customer Service</a></li>
+                                <li className="nav-item mb-2"><a href="/#" className="nav-link p-0">Privacy</a></li>
+                                <li className="nav-item mb-2" data-bs-toggle="modal" data-bs-target="#contactModal"><a className="nav-link p-0 contact-modal" aria-current="page" href="#contact">Contact Us</a></li>
+                                <li className="nav-item mb-2"><a href="/#" className="nav-link p-0">Orders & Returns</a></li>
+                            </ul>
+                        </div>
+
+                        <div className="col mb-3">
+                            <h5>WHY BUY FROM US</h5>
+                            <ul className="nav flex-column">
+                                <li className="nav-item mb-2"><a href="/#" className="nav-link p-0">Shipping & Returns</a></li>
+                                <li className="nav-item mb-2"><a href="/#" className="nav-link p-0">Secure Shopping</a></li>
+                                <li className="nav-item mb-2"><a href="/#" className="nav-link p-0">Affiliates</a></li>
+                                <li className="nav-item mb-2"><a href="/#" className="nav-link p-0">Group Sales</a></li>
+                                <li className="nav-item mb-2"><a href="/#" className="nav-link p-0">FAQs</a></li>
+                            </ul>
+                        </div>
+
+                        <div className="col mb-3">
+                            <h5>MY ACCOUNT</h5>
+                            <ul className="nav flex-column">
+                                <li className="nav-item mb-2" data-bs-toggle="modal" data-bs-target="#loginModalToggle"><a href="#login" className="nav-link p-0">Sign In</a></li>
+                                <Link to="/cart" onClick={()=>{window.scrollTo({top: 0, left: 0, behavior: 'smooth'});}} id="cart-logo" className="nav-link p-0"><li className="nav-item mb-2">View Cart</li></Link>
+                                <Link to="/wishlist" onClick={()=>{window.scrollTo({top: 0, left: 0, behavior: 'smooth'});}} id="cart-logo" className="nav-link p-0"><li className="nav-item mb-2">Wishlist</li></Link>
+                                <li className="nav-item mb-2"><a href="/#" className="nav-link p-0">Track My Order</a></li>
+                                <li className="nav-item mb-2"><a href="/#" className="nav-link p-0">Help</a></li>
+                            </ul>
+                        </div>
+                        <ul className="list-unstyled d-flex">
+                            <li className="ms-3 m-auto"><a className="link-dark" href="/#"><i className="fab fa-facebook-f" style={{ fontSize: "25px" }}></i></a></li>
+                            <li className="ms-3 m-auto"><a className="link-dark" href="/#"><i className="fab fa-linkedin-in" style={{ fontSize: "25px" }}></i></a></li>
+                            <li className="ms-3 m-auto"><a className="link-dark" href="/#"><i className="fab fa-instagram" style={{ fontSize: "25px" }}></i></a></li>
+                            <li className="ms-3 m-auto"><a className="link-dark" href="/#"><i className="fab fa-twitter" style={{ fontSize: "25px" }}></i></a></li>
                         </ul>
-                    </div>
+                    </footer>
+                    <p className="ewl">Engineered with  <i className="fas fa-heart">&nbsp;</i>by Hargun Singh Khera</p>
 
-                    <div className="col mb-3">
-                        <h5>WHY BUY FROM US</h5>
-                        <ul className="nav flex-column">
-                            <li className="nav-item mb-2"><a href="/#" className="nav-link p-0 text-muted">Shipping & Returns</a></li>
-                            <li className="nav-item mb-2"><a href="/#" className="nav-link p-0 text-muted">Secure Shopping</a></li>
-                            <li className="nav-item mb-2"><a href="/#" className="nav-link p-0 text-muted">Affiliates</a></li>
-                            <li className="nav-item mb-2"><a href="/#" className="nav-link p-0 text-muted">Group Sales</a></li>
-                            <li className="nav-item mb-2"><a href="/#" className="nav-link p-0 text-muted">FAQs</a></li>
-                        </ul>
-                    </div>
-
-                    <div className="col mb-3">
-                        <h5>MY ACCOUNT</h5>
-                        <ul className="nav flex-column">
-                            <li className="nav-item mb-2" data-bs-toggle="modal" data-bs-target="#loginModalToggle"><a href="#login" className="nav-link p-0 text-muted">Sign In</a></li>
-                            <li className="nav-item mb-2"><Link to="/cart" onClick={()=>{window.scrollTo({top: 0, left: 0, behavior: 'smooth'});}} id="cart-logo" className="nav-link p-0 text-muted">View Cart</Link></li>
-                            <li className="nav-item mb-2"><Link to="/wishlist" onClick={()=>{window.scrollTo({top: 0, left: 0, behavior: 'smooth'});}} id="cart-logo" className="nav-link p-0 text-muted"> Wishlist</Link></li>
-                            <li className="nav-item mb-2"><a href="/#" className="nav-link p-0 text-muted">Track My Order</a></li>
-                            <li className="nav-item mb-2"><a href="/#" className="nav-link p-0 text-muted">Help</a></li>
-                        </ul>
-                    </div>
-                    <ul className="list-unstyled d-flex">
-                        <li className="ms-3"><a className="link-dark" href="/#"><i className="fab fa-facebook-f" style={{ fontSize: "25px" }}></i></a></li>
-                        <li className="ms-3"><a className="link-dark" href="/#"><i className="fab fa-linkedin-in" style={{ fontSize: "25px" }}></i></a></li>
-                        <li className="ms-3"><a className="link-dark" href="/#"><i className="fab fa-instagram" style={{ fontSize: "25px" }}></i></a></li>
-                        <li className="ms-3"><a className="link-dark" href="/#"><i className="fab fa-twitter" style={{ fontSize: "25px" }}></i></a></li>
-                    </ul>
-                </footer>
-                <p className="ewl">Engineered with  <i className="fas fa-heart">&nbsp;</i>by Hargun Singh Khera</p>
+                </div>
             </div>
         </>
     )

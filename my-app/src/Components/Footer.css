@@ -1,13 +1,38 @@
 .ewl {
     text-align: center;
+    margin-bottom: -10px;
+    padding-bottom: 15px;
 }
 
 .fas.fa-heart {
     color: #f1032d;
 }
 
-p.text-muted {
+.footer h5{
+    color: rgb(255 2 2 / 68%);
+}
+
+.footer li{
+    color: rgba(255, 255, 255, 0.73);
+}
+
+.footer li:hover{
+    color: rgb(255 2 2 / 68%);
+    text-decoration: underline;
+}
+
+.footer p{
     margin-right: -10px;
+    color: rgba(255, 255, 255, 0.73);
+}
+
+.footer ul li a {
+    color: rgba(255, 255, 255, 0.73);
+}
+
+.footer ul li a:hover {
+    color: rgb(255 2 2 / 68%);
+    text-decoration: underline;
 }
 
 .col.mb-3 h5 {
@@ -17,4 +42,8 @@ p.text-muted {
 .list-unstyled {
     text-align: center;
     align-items: center;
+}
+
+.footer {
+    background-color: black;
 }

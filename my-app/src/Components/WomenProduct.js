@@ -22,10 +22,10 @@ class ProductItem extends Component {
                     {this.state.loading && <Spinner/>}        
                 </div>
                 <div className="product-details-container-2">
-                    {!this.state.loading && <div className="card mb-3">
+                    {!this.state.loading && <div className="card mb-3 ">
                         <div className="row g-0">
-                            <div className="col-md-4">
-                                <img src={product.product_image} className="img-fluid rounded-start" alt="..." width="700" />
+                            <div className="col-md-4 product-img">
+                                <img src={product.product_image} className="img-fluid rounded-start" alt="..."  />
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">

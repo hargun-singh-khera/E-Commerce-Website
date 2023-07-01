@@ -3,9 +3,9 @@
 }
 
 .filters-container {
-    display: inline-block;
+    display: flexbox;
     height: 100%;
-    width: 305px;
+    /* width: 255px; */
     border: 1px solid;
     height: 10%; 
     padding-left: 30px;
@@ -23,6 +23,7 @@
 @media only screen and (max-width: 477px) and (min-width: 323px) 
 {
     .filters-container {
-        width: 175px;
+        /* width: 175px; */
+        display: none;
     }
 }

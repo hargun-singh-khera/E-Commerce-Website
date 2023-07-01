@@ -73,7 +73,7 @@
     font-weight: normal;
 }
 
-.filters {
+/* .filters {
     display: flex;
 }
 
@@ -81,7 +81,7 @@
     border: 1px solid;
     height: 100%; 
     padding-right: 40px;
-}
+} */
 
 .btn-add-to-card {
     border-radius: 3rem;
@@ -115,6 +115,7 @@
 .btn-container {
     margin-left: 5px;
 }
+
 
 @media only screen and (max-width: 450px)
 {

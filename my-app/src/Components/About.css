@@ -22,6 +22,8 @@
 .container.marketing{
     border-left: 6px rgb(255 2 2 / 68%) solid;
     background: rgba(248, 117, 3, 0.036);
+    padding-top: 1.8rem;
+    padding-bottom: 1.5rem;
     padding-left: 35px;
 }
 

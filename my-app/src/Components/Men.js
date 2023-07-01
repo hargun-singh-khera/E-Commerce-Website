@@ -16,7 +16,7 @@ class Men extends Component {
         super(props)
         this.state={
             product:'',
-            loading: false
+            loading: false,
         }
     }
     render() {
@@ -25,10 +25,9 @@ class Men extends Component {
                 <MenCarousel />
                 <div>
                     <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb p-3 bg-body-tertiary rounded-3">
-                        <li class="breadcrumb-item"><i class="bi bi-house-door-fill"></i><Link to='/'>Home</Link></li>
-                        <li class="breadcrumb-item active" aria-current="page">Category</li>
-                        <li class="breadcrumb-item active" aria-current="page">Mens</li>
+                        <ol class="breadcrumb breadcrumb-chevron p-3 bg-body-tertiary rounded-3">
+                            <li class="breadcrumb-item"><Link to='/' style={{textDecoration:'none', color:'black'}}>Home</Link></li>
+                            <li class="breadcrumb-item active" aria-current="page">Mens</li>
                         </ol>
                     </nav>
                 </div>
@@ -38,7 +37,7 @@ class Men extends Component {
                     <div className="garments-collection-container">
                         <div className="card-group card-image-container">
                             <div className="container my-3">
-                                {!this.state.loading && <Items productData = {this.state.product}/>}
+                                {!this.state.loading && <Items productData = {this.state.product} setProgress={this.props.setProgress}/>}
                             </div>
                         </div>
                     </div>
@@ -47,6 +46,7 @@ class Men extends Component {
         );
     }
     componentDidMount(){
+        this.props.setProgress(0);
         console.log("In mens mount method");
         this.setState({loading:true})
         fetch(productUrl,{method:'GET'})
@@ -55,6 +55,7 @@ class Men extends Component {
             this.setState({product:data,loading:false})
             console.log(this.state.product);
         })
+        this.props.setProgress(100);
 
     }
 }

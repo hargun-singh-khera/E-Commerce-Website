@@ -22,7 +22,7 @@ class ProductItem extends Component {
                     {this.state.loading && <Spinner/>}        
                 </div>
                 <div className="product-details-container-2">
-                    <div className="card mb-3 ">
+                    <div className="card mb-3">
                         {!this.state.loading && <div className="row g-0">
                             <div className="col-md-4">
                                 <img src={product.product_image} className="img-fluid rounded-start" alt="..." width="700" />
@@ -99,6 +99,7 @@ class ProductItem extends Component {
         )
     }
     async componentDidMount() {
+        // this.props.setProgress(0);
         try {
             this.setState({loading: true})
             const prodId = this.props.match.params.id;
@@ -110,6 +111,8 @@ class ProductItem extends Component {
         } catch(err) {
             console.log(err);
         }
+        // this.props.setProgress(100);
+
     }
 }
 export default ProductItem;

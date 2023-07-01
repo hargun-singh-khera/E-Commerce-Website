@@ -1,21 +1,22 @@
 import React from 'react'
+import './Modals.css'
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
 export default function Modals() {
     const notifyLogin=()=> {
         toast.success("Login Successfull", {
-            position: toast.POSITION.BOTTOM_RIGHT
+            position: toast.POSITION.TOP_RIGHT
         })
     }
     const notifySignUp=()=> {
         toast.success("SignUp successfull", {
-            position: toast.POSITION.BOTTOM_RIGHT
+            position: toast.POSITION.TOP_RIGHT
         })
     }
     const notifyMssg=()=> {
         toast.success("Message send successfully", {
-            position: toast.POSITION.BOTTOM_RIGHT
+            position: toast.POSITION.TOP_RIGHT
         })
     }
     const dismissAll=()=> {
@@ -28,14 +29,14 @@ export default function Modals() {
             <div className="modal fade" id="loginModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
                 tabIndex="-1">
                 <div className="modal-dialog modal-lg">
-                    <div className="modal-content" style={{backgroundColor:'#ffffffe0'}}>
+                    <div className="modal-content" >
                         <div className="modal-header">
-                            <img src="https://i.ibb.co/Rpmngys/logo3-removebg-preview.png" alt="" width="100"/>
+                            <img src="https://i.ibb.co/3hMcwNz/myhosieryshop-logo.png" alt="" width="100"/>
                                 <h5 className="modal-title" id="loginModalLabel">Login to MyHosieryShop</h5>
                                 <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div className="modal-body" >
-                            <div className='row mb-3 m-auto'>
+                            <div className='row mb-3 mr-auto'>
                                 <div className='col mt-5' >
                                     <img src="https://i.ibb.co/mNhRW1v/login-demo.png" alt="" width="340" />
                                 </div>
@@ -56,10 +57,15 @@ export default function Modals() {
                                         </div>
                                         <div className='container'>
                                             <div className='row'>
-                                                <button type='submit' className="btn btn-primary" style={{borderRadius:'20px', width:'350px', height:'40px',backgroundColor:'rgb(255 0 0 / 88%)',border:'none'}} onClick={notifyLogin}>Login</button>
-                                                <hr className='mt-3'/>
-                                                <button type='submit' className="btn btn-primary mt-1" style={{borderRadius:'20px', width:'350px', height:'40px', backgroundColor:'white', borderColor:'white', color:'grey', paddingRight:'40px'}} onClick={notifyLogin}><i class="fab fa-google" style={{paddingRight:'20px',paddingLeft:'10px'}}></i>Login with Google</button>
-                                                <button type='submit' className="btn btn-primary mt-3" style={{borderRadius:'20px', width:'350px', height:'40px',backgroundColor:'#0d3afd'}} onClick={notifyLogin}><i class="fab fa-facebook" style={{paddingRight:'20px'}}></i>Login with Facebook</button>
+                                                <button type='submit' className="btn btn-primary" style={{borderRadius:'50px', width:'350px', height:'45px',backgroundColor:'rgb(255 0 0 / 88%)',border:'none'}} onClick={notifyLogin}>Login</button>
+                                                <div>
+                                                    
+                                                </div>
+                                                <hr className='mt-3' />
+                                                <button type='submit' className="btn btn-primary mt-1" style={{borderRadius:'50px', width:'350px', height:'45px', backgroundColor:'white', borderColor:'#e7e8e9ff',paddingRight:'40px', color:'black'}} onClick={notifyLogin}>
+                                                 <img src='https://i.ibb.co/J3LRgbz/Google-G-Logo.png' style={{width:'15px',height:'15px',marginBottom:'2px', marginRight:'20px',marginLeft:'12px'}} alt='' />
+                                                 Login with Google</button>
+                                                <button type='submit' className="btn btn-primary mt-3" style={{borderRadius:'50px', width:'350px', height:'45px',backgroundColor:'#0d3afd'}} onClick={notifyLogin}><i class="fab fa-facebook" style={{paddingRight:'20px'}}></i>Login with Facebook</button>
                                             </div>
                                             
                                         </div>
@@ -82,14 +88,14 @@ export default function Modals() {
                 <div className="modal-dialog modal-xl ">
                     <div className="modal-content">
                         <div className="modal-header">
-                            <img src="https://i.ibb.co/Rpmngys/logo3-removebg-preview.png" alt="" width="140"/>
+                            <img src="https://i.ibb.co/3hMcwNz/myhosieryshop-logo.png" alt="" width="140"/>
                                 <h5 className="modal-title" id="signUpModalLabel">Create an Account for MyHosieryShop</h5>
                                 <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div className="modal-body">
                             <div className='row'>
-                                <div className='col text-center'>
-                                    <img src="https://i.ibb.co/6bbLmm7/Mobile-login-pana.png" alt="" width="380"/>
+                                <div className='col text-center justify-content-center m-auto'>
+                                    <img src="https://i.ibb.co/0f7n6jQ/Mobile-login-pana-2.png" alt="" width={350}/>
                                 </div>
                                 <div className='col'>
                                     <form>
@@ -116,7 +122,12 @@ export default function Modals() {
                                             </div>
                                             <div className='container'>
                                                 <div className='row'>
-                                                    <button type="submit" className="btn btn-primary mt-3 " style={{borderRadius:'25px', height:'40px', width:'550px',backgroundColor:'rgb(255 0 0 / 88%)',border:'none'}} onClick={notifySignUp}>Sign Up</button>
+                                                    <button type="submit" className="btn btn-primary mt-3 " style={{borderRadius:'25px', height:'45px', width:'550px',backgroundColor:'rgb(255 0 0 / 88%)',border:'none'}} onClick={notifySignUp}>Sign Up</button>
+                                                    <hr className='mt-3' />
+                                                <button type='submit' className="btn btn-primary mt-1" style={{borderRadius:'50px', width:'550px', height:'45px', backgroundColor:'white', borderColor:'#e7e8e9ff',paddingRight:'40px', color:'black'}} onClick={notifyLogin}>
+                                                 <img src='https://i.ibb.co/J3LRgbz/Google-G-Logo.png' style={{width:'15px',height:'15px',marginBottom:'2px', marginRight:'20px',marginLeft:'12px'}} alt='' />
+                                                 Sign Up with Google</button>
+                                                <button type='submit' className="btn btn-primary mt-3" style={{borderRadius:'50px', width:'550px', height:'45px',backgroundColor:'#0d3afd'}} onClick={notifyLogin}><i class="fab fa-facebook" style={{paddingRight:'20px'}}></i>Sign Up with Facebook</button>
                                                 </div>
                                             </div>  
                                     </form>
@@ -124,7 +135,7 @@ export default function Modals() {
                             </div>
                         </div>
                         <div className="modal-footer">
-                            <p>Already have an account?</p>
+                            <p id='already-account'>Already have an account?</p>
                             <button className="btn btn-primary" data-bs-target="#loginModalToggle" data-bs-toggle="modal"
                                 data-bs-dismiss="modal" style={{borderRadius:'25px',backgroundColor:'rgb(255 0 0 / 88%)',border:'none'}} onClick={dismissAll}>Sign In</button>
                             <button type="button" className="btn btn-secondary" data-bs-dismiss="modal" style={{borderRadius:'25px'}}>Close</button>
@@ -175,7 +186,7 @@ export default function Modals() {
                                         </div>
                                         <div className="modal-footer">
                                             <button type="button" className="btn btn-secondary" data-bs-dismiss="modal" style={{borderRadius:'25px'}}>Close</button>
-                                            <button type="button" className="btn btn-primary" style={{borderRadius:'25px',backgroundColor:'red',border:'none'}} onClick={notifyMssg}>Send message</button>
+                                            <button type="button" className="btn btn-primary" style={{borderRadius:'25px',backgroundColor:'rgb(255 0 0 / 88%)',border:'none'}} onClick={notifyMssg}>Send message</button>
                                             <ToastContainer />
                                         </div>
                                     </form>

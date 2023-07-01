@@ -16,9 +16,28 @@
 .card-img-top {
     cursor: default;
 }
+/* 
+#myVideo {
+    max-width: 100%;
+    max-height: 100%;
+}
 
-#Women-Men .card-group .card .card-img-top:hover {
-    transform:scale(1.0010);
+.overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+} */
+
+#Women-Men .card:hover {
+    transform:scale(1.05000);
+}
+
+#Women-Men {
+    /* background-color: #e8e6e66e; */
+    background-color: #f4f4f4;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .card-title {

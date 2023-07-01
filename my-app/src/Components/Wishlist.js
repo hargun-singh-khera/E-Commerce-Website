@@ -11,11 +11,11 @@ export default function Wishlist() {
                     <a href="/#" id="cart-deselect-item">Empty Wishlist</a>
                     <hr />
                 </div>
-                <div className="card mb-3 border-0">
+                <div className="card mb-3 border-0 mt-5 mb-5">
                     <div className="row g-0">
                         <div className="col-md-4">
-                            <img src="https://i.ibb.co/Kj7m7HS/71r7g8c-Gq4-L-SY741-SX-UX-SY-UY.jpg" className="img-fluid rounded-start"
-                                alt="..." width="200" />
+                            <img src="https://i.ibb.co/Kj7m7HS/71r7g8c-Gq4-L-SY741-SX-UX-SY-UY.jpg" className="img-fluid rounded-start w-auto"
+                                alt="..."  />
                         </div>
                         <div className="col-md-8">
                             <div className="card-body cart-card-body">
@@ -41,11 +41,11 @@ export default function Wishlist() {
                     </div>
                 </div>
                 <hr id="lasthr" />
-                <div className="card mb-3 border-0">
+                <div className="card mb-3 border-0 mt-5 mb-5">
                     <div className="row g-0">
                         <div className="col-md-4">
-                            <img src="https://i.ibb.co/Kj7m7HS/71r7g8c-Gq4-L-SY741-SX-UX-SY-UY.jpg" className="img-fluid rounded-start"
-                                alt="..." width="200" />
+                            <img src="https://i.ibb.co/Kj7m7HS/71r7g8c-Gq4-L-SY741-SX-UX-SY-UY.jpg" className="img-fluid rounded-start w-auto"
+                                alt="..."  />
                         </div>
                         <div className="col-md-8">
                             <div className="card-body cart-card-body">

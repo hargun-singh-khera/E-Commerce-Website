@@ -4,6 +4,14 @@ import { Link } from 'react-router-dom';
 import Rating from './Rating';
 
 const Product = (props) => {
+    const updateProgress=()=>{
+        props.setProgress(0)
+        props.setProgress(20)
+        props.setProgress(40)
+        window.scrollTo({top: 0, left: 0, behavior: 'smooth'})
+        props.setProgress(100)
+    }
+    console.log(props)
     const renderProduct = ({ productData }) => {
         if (productData) {
             return productData.map((item) => {
@@ -12,9 +20,9 @@ const Product = (props) => {
                         <div className="col-md-3">
                             <div className="my-3">
                                 <div className="card-group">
-                                    <Link id="link" to={`${item.department.toLowerCase()}/${item.product_id}`} onClick={()=>{window.scrollTo({top: 0, left: 0, behavior: 'smooth'});}}>
+                                    <Link id="link" to={`${item.department.toLowerCase()}/${item.product_id}`} onClick={updateProgress}>
                                         <div className="card">
-                                            <img src={item.product_image} className="card-img-top" alt="..." />
+                                            <img src={item.product_image} className="card-img-top img-fluid" alt="..." />
                                             <div className="card-body">
                                                 <h5 className="card-title">{item.title}</h5>
                                                 <div className="rating-container">
@@ -37,7 +45,7 @@ const Product = (props) => {
     }
     return (
         <>
-            <div className="row ">
+            <div className="row">
                 {renderProduct(props)}
             </div>
         </>
